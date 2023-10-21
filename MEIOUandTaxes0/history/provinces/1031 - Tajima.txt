@@ -1,0 +1,28 @@
+owner = IGW
+controller = IGW
+
+capital = "Izusi"
+trade_goods = livestock
+culture = chugoku
+religion = mahayana
+
+hre = no
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1340.1.1 = {
+	add_core = IGW
+}
+1353.1.1 = {
+	owner = YMN
+	controller = YMN
+}

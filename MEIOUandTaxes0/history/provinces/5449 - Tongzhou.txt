@@ -1,0 +1,44 @@
+owner = YUA
+controller = YUA
+
+capital = "Tongchuan"
+trade_goods = rice
+culture = bashu
+religion = confucianism
+
+hre = no
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+985.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+}
+1279.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1320.1.1 = {
+	remove_core = SNG
+}
+1351.1.1 = {
+	owner = DXI
+	controller = DXI
+	add_core = DXI
+}
+1356.1.1 = {
+	controller = SHU
+}

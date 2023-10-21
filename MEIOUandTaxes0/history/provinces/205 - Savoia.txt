@@ -1,0 +1,30 @@
+owner = SAV
+controller = SAV
+add_core = SAV
+
+capital = "Chanberie"
+trade_goods = cheese
+culture = arpitan
+religion = catholic
+
+hre = yes
+
+base_tax = 27
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+fort_14th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 270.411 }
+	set_variable = { which = starting_urban_pop_1350 value = 3 }
+	set_variable = { which = starting_rural_pop_1400 value = 184.970 }
+	set_variable = { which = starting_rural_pop_1450 value = 218.646 }
+	set_variable = { which = starting_rural_pop_1850 value = 520.232 }
+}

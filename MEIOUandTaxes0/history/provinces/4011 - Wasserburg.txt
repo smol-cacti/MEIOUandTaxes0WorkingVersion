@@ -1,0 +1,45 @@
+owner = BAW
+controller = BAW
+add_core = BAW
+
+capital = "Wasserburg am Inn"
+trade_goods = wheat
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1340.12.20 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = BAW
+	set_province_flag = mined_goods
+	set_province_flag = salt
+}
+1349.1.1 = {
+	owner = BAX
+	controller = BAX
+	add_core = BAX
+	remove_core = BAV
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 23.619 }
+	set_variable = { which = starting_rural_pop_1400 value = 17.058 }
+	set_variable = { which = starting_rural_pop_1450 value = 20.338 }
+	set_variable = { which = starting_rural_pop_1850 value = 68.026 }
+}

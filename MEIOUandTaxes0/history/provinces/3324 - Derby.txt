@@ -1,0 +1,36 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+
+capital = "Derby"
+trade_goods = wool
+culture = english
+religion = catholic
+
+hre = no
+
+base_tax = 20
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+road_network = yes
+marketplace = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1300.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = lead
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 209.040 }
+	set_variable = { which = starting_urban_pop_1350 value = 12.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 146.064 }
+	set_variable = { which = starting_rural_pop_1450 value = 160.920 }
+	set_variable = { which = starting_rural_pop_1850 value = 565.455 }
+}

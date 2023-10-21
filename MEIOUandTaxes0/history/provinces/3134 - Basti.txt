@@ -1,0 +1,28 @@
+owner = AHM
+controller = AHM
+add_core = AHM
+
+capital = "Basti"
+trade_goods = rice
+culture = avadhi
+religion = hinduism
+
+hre = no
+
+base_tax = 43
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 7 }
+}
+1356.1.1 = {
+	unrest = 6
+}

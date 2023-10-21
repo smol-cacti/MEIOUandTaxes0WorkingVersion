@@ -1,0 +1,28 @@
+owner = TLC
+controller = TLC
+add_core = TLC
+
+capital = "Cuauhnahuac"
+trade_goods = maize
+culture = nahuatl_c
+religion = nahuatl
+
+hre = no
+
+base_tax = 17
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+town_hall = yes
+temple = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 7 }
+	set_province_flag = mined_goods
+	set_province_flag = obsidian
+	set_province_flag = tribals_control_province
+}

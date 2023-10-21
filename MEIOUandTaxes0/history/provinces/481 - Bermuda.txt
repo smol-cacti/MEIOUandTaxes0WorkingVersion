@@ -1,0 +1,29 @@
+capital = "Bermuda"
+trade_goods = tobacco
+
+hre = no
+
+base_tax = 0
+base_production = 0
+base_manpower = 0
+
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+450.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1850 value = 11 }
+	add_permanent_province_modifier = {
+		name = subartic_islands_unrest
+		duration = -1
+		hidden = yes
+	}
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = bermuda_natural_harbour
+		duration = -1
+	}
+}

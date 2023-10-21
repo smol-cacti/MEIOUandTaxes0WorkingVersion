@@ -1,0 +1,24 @@
+owner = SUK
+controller = SUK
+add_core = SUK
+
+capital = "Kamphaeng Phet"
+trade_goods = rice
+culture = thai
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}

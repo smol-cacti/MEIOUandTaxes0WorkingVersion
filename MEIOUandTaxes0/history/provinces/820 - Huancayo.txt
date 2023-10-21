@@ -1,0 +1,26 @@
+owner = HUA
+controller = HUA
+add_core = HUA
+
+capital = "Huancayo"
+trade_goods = maize
+culture = huaylas
+religion = inti
+
+hre = no
+
+base_tax = 28
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+town_hall = yes
+marketplace = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = tribals_control_province
+}

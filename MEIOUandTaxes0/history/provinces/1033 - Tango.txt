@@ -1,0 +1,33 @@
+owner = NIK
+controller = NIK
+
+capital = "Miyadu"
+trade_goods = fish
+culture = kansai
+religion = mahayana
+
+hre = no
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+temple = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = tajima_natural_harbour
+		duration = -1
+	}
+}
+1353.1.1 = {
+	add_core = NIK
+}

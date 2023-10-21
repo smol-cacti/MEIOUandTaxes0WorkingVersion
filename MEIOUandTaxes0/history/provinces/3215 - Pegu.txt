@@ -1,0 +1,30 @@
+owner = PEG
+controller = PEG
+add_core = PEG
+
+capital = "Hanthawaddy"
+trade_goods = rice
+culture = monic
+religion = buddhism
+
+hre = no
+
+base_tax = 12
+base_production = 3
+base_manpower = 0
+
+is_city = yes
+merchant_guild = yes
+workshop = yes
+urban_infrastructure_1 = yes
+harbour_infrastructure_2 = yes
+temple = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}

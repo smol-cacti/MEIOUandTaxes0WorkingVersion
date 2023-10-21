@@ -1,0 +1,25 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+
+capital = "Dien Chau"
+trade_goods = fish
+culture = vietnamese
+religion = mahayana
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

@@ -1,0 +1,24 @@
+owner = TOT
+controller = TOT
+add_core = TOT
+
+capital = "Cuetlaxtlan"
+trade_goods = maize
+culture = nawa
+religion = nahuatl
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = tribals_control_province
+	set_province_flag = gold
+}

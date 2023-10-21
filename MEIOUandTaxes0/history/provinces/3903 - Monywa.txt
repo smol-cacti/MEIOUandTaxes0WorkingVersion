@@ -1,0 +1,32 @@
+owner = SAG
+controller = SAG
+add_core = SAG
+
+capital = "Monywa"
+trade_goods = opium
+culture = burmese
+religion = buddhism
+
+hre = no
+
+base_tax = 15
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1313.2.7 = {
+	owner = PIN
+	controller = PIN
+	add_core = PIN
+}
+1315.5.15 = {
+	owner = SAG
+	controller = SAG
+}

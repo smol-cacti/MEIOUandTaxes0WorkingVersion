@@ -1,0 +1,32 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+
+capital = "Mustasaari"
+trade_goods = lumber
+culture = finnish
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+
+1356.1.1 = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 10 }
+	set_variable = { which = starting_rural_pop_1400 value = 12.725 }
+	set_variable = { which = starting_rural_pop_1450 value = 12.725 }
+	set_variable = { which = starting_rural_pop_1850 value = 205.772 }
+}

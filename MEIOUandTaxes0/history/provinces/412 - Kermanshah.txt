@@ -1,0 +1,30 @@
+owner = CHU
+controller = CHU
+add_core = CHU
+
+capital = "Kermanshah"
+trade_goods = wheat
+culture = persian
+religion = sunni
+
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_2 = yes
+workshop = yes
+temple = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

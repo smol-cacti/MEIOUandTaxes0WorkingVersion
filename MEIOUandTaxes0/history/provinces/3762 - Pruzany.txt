@@ -1,0 +1,32 @@
+owner = TRK
+controller = TRK
+add_core = TRK
+
+capital = "Lietuvos Brasta"
+trade_goods = lumber
+culture = ruthenian
+religion = orthodox
+
+hre = no
+
+base_tax = 3
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+town_hall = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1356.1.1 = {
+	add_core = LIT
+}

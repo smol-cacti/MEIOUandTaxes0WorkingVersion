@@ -1,0 +1,23 @@
+owner = TRV
+controller = TRV
+add_core = TRV
+
+capital = "Kanyakumari"
+trade_goods = pepper
+culture = malayalam
+religion = hinduism
+
+hre = no
+
+base_tax = 18
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 7 }
+}

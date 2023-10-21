@@ -1,0 +1,35 @@
+owner = SNG
+controller = SNG
+
+capital = "Shangcheng"
+trade_goods = tea
+culture = hanyu
+religion = confucianism
+
+hre = no
+
+base_tax = 12
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+temple = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+}

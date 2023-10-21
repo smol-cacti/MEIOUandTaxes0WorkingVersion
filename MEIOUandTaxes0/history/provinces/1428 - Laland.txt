@@ -1,0 +1,27 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+
+capital = "Nacascogh"
+trade_goods = wheat
+culture = danish
+religion = catholic
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 32.124 }
+	set_variable = { which = starting_rural_pop_1400 value = 21.762 }
+	set_variable = { which = starting_rural_pop_1450 value = 26.943 }
+	set_variable = { which = starting_rural_pop_1850 value = 76.420 }
+}

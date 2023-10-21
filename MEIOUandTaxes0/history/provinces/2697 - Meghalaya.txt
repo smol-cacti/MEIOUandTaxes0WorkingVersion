@@ -1,0 +1,5 @@
+culture = khasi
+religion = animism
+
+discovered_by = indian
+discovered_by = chinese

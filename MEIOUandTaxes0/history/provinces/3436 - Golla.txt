@@ -1,0 +1,27 @@
+owner = AYM
+controller = AYM
+add_core = AYM
+
+capital = "Hatunqulla"
+trade_goods = livestock
+culture = aimara
+religion = inti
+
+hre = no
+
+base_tax = 35
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+workshop = yes
+road_network = yes
+town_hall = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = tribals_control_province
+}

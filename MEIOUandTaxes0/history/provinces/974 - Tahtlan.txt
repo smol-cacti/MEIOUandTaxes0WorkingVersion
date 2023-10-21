@@ -1,0 +1,35 @@
+owner = BMB
+controller = BMB
+add_core = BMB
+
+capital = "Bamberg"
+trade_goods = wheat
+culture = eastfranconian
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+local_fortification_1 = yes
+road_network = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 98.163 }
+	set_variable = { which = starting_urban_pop_1350 value = 7.750 }
+	set_variable = { which = starting_rural_pop_1400 value = 68.993 }
+	set_variable = { which = starting_rural_pop_1450 value = 83.953 }
+	set_variable = { which = starting_rural_pop_1850 value = 252.715 }
+}

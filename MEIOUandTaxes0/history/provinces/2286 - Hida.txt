@@ -1,0 +1,24 @@
+owner = KYO
+controller = KYO
+
+capital = "Takayama"
+trade_goods = lumber
+culture = chubu
+religion = mahayana
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1356.1.1 = {
+	add_core = KYO
+}

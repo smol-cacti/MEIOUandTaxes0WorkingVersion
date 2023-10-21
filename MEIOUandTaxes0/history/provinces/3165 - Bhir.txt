@@ -1,0 +1,25 @@
+owner = BAH
+controller = BAH
+add_core = BAH
+
+capital = "Bir"
+trade_goods = millet
+culture = marathi
+religion = hinduism
+
+base_tax = 18
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+}
+1356.1.1 = {
+	add_core = BAS
+}

@@ -1,0 +1,32 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+
+capital = "Bourges"
+trade_goods = wheat
+culture = francien
+religion = catholic
+
+hre = no
+
+base_tax = 21
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+local_fortification_2 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 218.151 }
+	set_variable = { which = starting_urban_pop_1350 value = 17 }
+	set_variable = { which = starting_rural_pop_1400 value = 143.666 }
+	set_variable = { which = starting_rural_pop_1450 value = 166.060 }
+	set_variable = { which = starting_rural_pop_1850 value = 469.720 }
+}

@@ -1,0 +1,24 @@
+owner = ANO
+controller = ANO
+add_core = ANO
+
+capital = "Kubota"
+trade_goods = rice
+culture = tohoku
+religion = mahayana
+
+hre = no
+
+base_tax = 20
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}

@@ -1,0 +1,27 @@
+owner = JAF
+controller = JAF
+add_core = JAF
+
+capital = "Yalppanam"
+trade_goods = cinnamon
+culture = tamil
+religion = hinduism
+
+hre = no
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+marketplace = yes
+harbour_infrastructure_1 = yes
+fort_14th = yes
+
+discovered_by = muslim
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}

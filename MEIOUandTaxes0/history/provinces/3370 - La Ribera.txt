@@ -1,0 +1,33 @@
+owner = NAV
+controller = NAV
+add_core = NAV
+
+capital = "Tudela"
+trade_goods = wheat
+culture = basque
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+town_hall = yes
+local_fortification_1 = yes
+marketplace = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 12.615 }
+	set_variable = { which = starting_urban_pop_1350 value = 8 }
+	set_variable = { which = starting_rural_pop_1400 value = 8.320 }
+	set_variable = { which = starting_rural_pop_1450 value = 9.109 }
+	set_variable = { which = starting_rural_pop_1850 value = 58.081 }
+}

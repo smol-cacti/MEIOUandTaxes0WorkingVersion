@@ -1,0 +1,33 @@
+owner = AHM
+controller = AHM
+add_core = AHM
+
+capital = "Muzzaffarpur"
+trade_goods = cotton
+culture = bihari
+religion = hinduism
+
+hre = no
+
+base_tax = 49
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 8 }
+	add_permanent_province_modifier = {
+		name = tirhut_state
+		duration = -1
+	}
+}
+1356.1.1 = {
+	add_core = TRT
+	unrest = 6
+}

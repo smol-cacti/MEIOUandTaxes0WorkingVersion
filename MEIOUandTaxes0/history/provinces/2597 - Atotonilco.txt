@@ -1,0 +1,25 @@
+owner = ACO
+controller = ACO
+add_core = ACO
+
+capital = "Atotonilco"
+trade_goods = cotton
+culture = chichimecha
+religion = nahuatl
+
+hre = no
+
+base_tax = 11
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+	set_province_flag = mined_goods
+	set_province_flag = obsidian
+	set_province_flag = tribals_control_province
+}

@@ -1,0 +1,26 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+
+capital = "Chanthaburi"
+trade_goods = fish
+culture = pear
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = tribals_control_province
+}

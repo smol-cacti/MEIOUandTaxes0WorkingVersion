@@ -1,0 +1,54 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+
+capital = "London"
+trade_goods = wheat
+culture = english
+religion = catholic
+
+hre = no
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+urban_infrastructure_1 = yes
+merchant_guild = yes
+workshop = yes
+harbour_infrastructure_2 = yes
+great_temple = yes
+road_network = yes
+
+set_seat_in_parliament = yes
+
+extra_cost = 25
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+450.1.1 = {
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = awesome_natural_place
+	add_permanent_province_modifier = {
+		name = thames_estuary_modifier
+		duration = -1
+	}
+}
+500.1.1 = {
+	add_permanent_province_modifier = {
+		name = urban_goods_cloth
+		duration = -1
+	}
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 42.229 }
+	set_variable = { which = starting_urban_pop_1350 value = 40 }
+	set_variable = { which = starting_rural_pop_1400 value = 13.735 }
+	set_variable = { which = starting_rural_pop_1450 value = 52.578 }
+	set_variable = { which = starting_rural_pop_1850 value = 168.314 }
+}

@@ -1,0 +1,32 @@
+owner = SAV
+controller = SAV
+add_core = SAV
+
+capital = "Lausanne"
+trade_goods = cheese
+culture = arpitan
+religion = catholic
+
+hre = yes
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+workshop = yes
+town_hall = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 101.918 }
+	set_variable = { which = starting_urban_pop_1350 value = 12 }
+	set_variable = { which = starting_rural_pop_1400 value = 71.439 }
+	set_variable = { which = starting_rural_pop_1450 value = 85.179 }
+	set_variable = { which = starting_rural_pop_1850 value = 322.019 }
+}

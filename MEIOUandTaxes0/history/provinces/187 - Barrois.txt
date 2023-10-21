@@ -1,0 +1,29 @@
+owner = BAR
+controller = BAR
+add_core = BAR
+
+capital = "Bar"
+trade_goods = wheat
+culture = lorrain
+religion = catholic
+
+hre = yes
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 69.010 }
+	set_variable = { which = starting_rural_pop_1400 value = 47.445 }
+	set_variable = { which = starting_rural_pop_1450 value = 56.071 }
+	set_variable = { which = starting_rural_pop_1850 value = 287.646 }
+}

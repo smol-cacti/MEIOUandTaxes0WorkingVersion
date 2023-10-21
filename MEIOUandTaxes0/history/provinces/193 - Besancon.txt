@@ -1,0 +1,29 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+
+capital = "Vesoul"
+trade_goods = wine
+culture = bourguignon
+religion = catholic
+
+hre = yes
+
+base_tax = 13
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 135.090 }
+	set_variable = { which = starting_rural_pop_1400 value = 92.874 }
+	set_variable = { which = starting_rural_pop_1450 value = 109.761 }
+	set_variable = { which = starting_rural_pop_1850 value = 440.321 }
+}

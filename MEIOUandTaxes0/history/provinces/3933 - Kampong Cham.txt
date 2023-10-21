@@ -1,0 +1,24 @@
+owner = KHM
+controller = KHM
+add_core = KHM
+
+capital = "Basan"
+trade_goods = rice
+culture = khmer
+religion = buddhism
+
+hre = no
+
+base_tax = 18
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}

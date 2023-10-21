@@ -1,0 +1,48 @@
+owner = MAM
+controller = MAM
+add_core = MAM
+
+capital = "Antakya"
+trade_goods = indigo
+culture = shami
+religion = sunni
+
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+workshop = yes
+temple = yes
+harbour_infrastructure_2 = yes
+marketplace = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = aleppo_natural_harbour
+		duration = -1
+	}
+}
+500.1.1 = {
+	add_permanent_province_modifier = {
+		name = urban_goods_cloth
+		duration = -1
+	}
+}
+1356.1.1 = {
+	add_core = SYR
+}

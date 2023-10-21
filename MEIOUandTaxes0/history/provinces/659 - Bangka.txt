@@ -1,0 +1,29 @@
+owner = PLB
+controller = PLB
+add_core = PLB
+
+capital = "Riau"
+trade_goods = palm
+culture = malayan
+religion = vajrayana
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+}
+1356.1.1 = {
+	add_permanent_claim = MPH
+	set_province_flag = mined_goods
+	set_province_flag = tin
+}

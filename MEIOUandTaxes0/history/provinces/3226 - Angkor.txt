@@ -1,0 +1,36 @@
+owner = KHM
+controller = KHM
+add_core = KHM
+
+capital = "Angkor Thom"
+trade_goods = rice
+culture = khmer
+religion = buddhism
+
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_2 = yes
+marketplace = yes
+warehouse = yes
+workshop = yes
+great_temple = yes
+fort_14th = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	add_core = AYU
+}1907.1.1 = {
+	owner = FRA
+	controller = FRA
+}

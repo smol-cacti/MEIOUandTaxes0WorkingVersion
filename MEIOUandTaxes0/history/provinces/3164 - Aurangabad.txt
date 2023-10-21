@@ -1,0 +1,33 @@
+owner = BAH
+controller = BAH
+add_core = BAH
+
+capital = "Devagiri"
+trade_goods = cotton
+culture = marathi
+religion = hinduism
+
+hre = no
+
+base_tax = 22
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+road_network = yes
+fort_14th = yes
+local_fortification_1 = yes
+
+discovered_by = indian
+discovered_by = steppestech
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+1356.1.1 = {
+	add_core = BAS
+	set_province_flag = add_local_autonomy_25
+}

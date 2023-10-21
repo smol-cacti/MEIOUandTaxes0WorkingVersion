@@ -1,0 +1,23 @@
+owner = SBA
+controller = SBA
+add_core = SBA
+
+capital = "Moriwoka"
+trade_goods = lumber
+culture = tohoku
+religion = mahayana
+
+hre = no
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}

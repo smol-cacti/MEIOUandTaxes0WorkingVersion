@@ -1,0 +1,32 @@
+owner = LUN
+controller = LUN
+add_core = LUN
+
+capital = "Hannover"
+trade_goods = livestock
+culture = eastphalian
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 61.498 }
+	set_variable = { which = starting_urban_pop_1350 value = 5 }
+	set_variable = { which = starting_rural_pop_1400 value = 43.026 }
+	set_variable = { which = starting_rural_pop_1450 value = 51.762 }
+	set_variable = { which = starting_rural_pop_1850 value = 206.763 }
+}

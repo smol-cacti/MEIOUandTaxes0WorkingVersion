@@ -1,0 +1,36 @@
+owner = THU
+controller = THU
+add_core = THU
+
+capital = "Langensalza"
+trade_goods = wool
+culture = thuringian
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+workshop = yes
+local_fortification_1 = yes
+road_network = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 53.635 }
+	set_variable = { which = starting_urban_pop_1350 value = 6.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 35.181 }
+	set_variable = { which = starting_rural_pop_1450 value = 43.033 }
+	set_variable = { which = starting_rural_pop_1850 value = 178.439 }
+}

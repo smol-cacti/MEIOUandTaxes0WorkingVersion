@@ -1,0 +1,16 @@
+capital = "Nakkavaram"
+trade_goods = fish
+culture = nicobarese
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

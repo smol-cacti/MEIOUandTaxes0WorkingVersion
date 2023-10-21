@@ -1,0 +1,40 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+
+capital = "Angoulème"
+trade_goods = wine
+culture = poitevin
+religion = catholic
+
+hre = no
+
+base_tax = 13
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+warehouse = yes
+marketplace = yes
+temple = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = GUY
+	add_core = DAL
+	controller = GUY
+	set_province_flag = add_local_autonomy_25
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 137.006 }
+	set_variable = { which = starting_urban_pop_1350 value = 5.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 92.301 }
+	set_variable = { which = starting_rural_pop_1450 value = 109.833 }
+	set_variable = { which = starting_rural_pop_1850 value = 359.145 }
+}

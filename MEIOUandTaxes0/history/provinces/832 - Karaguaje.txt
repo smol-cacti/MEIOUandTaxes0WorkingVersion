@@ -1,0 +1,23 @@
+owner = CBS
+controller = CBS
+add_core = CBS
+
+capital = "Karaguaje"
+trade_goods = maize
+culture = muisca
+religion = aztec_reformed
+
+hre = no
+
+base_tax = 30
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+	set_province_flag = tribals_control_province
+}

@@ -1,0 +1,24 @@
+owner = MTN
+controller = MTN
+add_core = MTN
+
+capital = "Manabi"
+trade_goods = fish
+culture = manteno
+religion = inti
+
+hre = no
+
+base_tax = 21
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+	set_province_flag = tribals_control_province
+}

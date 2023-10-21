@@ -1,0 +1,35 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+
+capital = "Rodes"
+trade_goods = cheese
+culture = occitain
+religion = catholic
+
+hre = no
+
+base_tax = 25
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+warehouse = yes
+local_fortification_2 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_permanent_claim = FRA
+	set_province_flag = add_local_autonomy_25
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 254.748 }
+	set_variable = { which = starting_urban_pop_1350 value = 5 }
+	set_variable = { which = starting_rural_pop_1400 value = 173.577 }
+	set_variable = { which = starting_rural_pop_1450 value = 206.045 }
+	set_variable = { which = starting_rural_pop_1850 value = 362.304 }
+}

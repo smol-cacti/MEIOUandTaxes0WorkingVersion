@@ -1,0 +1,30 @@
+owner = MLO
+controller = MLO
+add_core = MLO
+
+capital = "Belinzòna"
+trade_goods = livestock
+culture = lombard
+religion = catholic
+
+hre = yes
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 37.222 }
+	set_variable = { which = starting_urban_pop_1350 value = 2 }
+	set_variable = { which = starting_rural_pop_1400 value = 27.417 }
+	set_variable = { which = starting_rural_pop_1450 value = 32.069 }
+	set_variable = { which = starting_rural_pop_1850 value = 117.119 }
+}

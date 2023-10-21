@@ -1,0 +1,36 @@
+owner = KOR
+controller = KOR
+
+capital = "Hwaju"
+trade_goods = lumber
+culture = korean
+religion = mahayana
+
+hre = no
+
+base_tax = 12
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+town_hall = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1290.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1356.6.1 = {
+	owner = KOR
+	controller = KOR
+	add_core = KOR
+	remove_core = YUA
+}

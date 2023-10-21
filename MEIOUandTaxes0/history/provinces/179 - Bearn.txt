@@ -1,0 +1,36 @@
+owner = FOI
+controller = FOI
+add_core = FOI
+
+capital = "Pau"
+trade_goods = wool
+culture = gascon
+religion = catholic
+
+hre = no
+
+base_tax = 19
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+town_hall = yes
+warehouse = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_permanent_claim = FRA
+	set_province_flag = add_local_autonomy_25
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 191.685 }
+	set_variable = { which = starting_urban_pop_1350 value = 9.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 129.315 }
+	set_variable = { which = starting_rural_pop_1450 value = 152.463 }
+	set_variable = { which = starting_rural_pop_1850 value = 387.834 }
+}

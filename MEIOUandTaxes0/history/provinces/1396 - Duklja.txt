@@ -1,0 +1,36 @@
+owner = SER
+controller = SER
+
+capital = "Podgorica"
+trade_goods = wool
+culture = serbian
+religion = orthodox
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1353.1.1 = {
+	owner = MON
+	controller = MON
+	add_core = MON
+	add_permanent_claim = SER
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 16.586 }
+	set_variable = { which = starting_rural_pop_1400 value = 12.90 }
+	set_variable = { which = starting_rural_pop_1450 value = 14.743 }
+	set_variable = { which = starting_rural_pop_1850 value = 44.228 }
+}

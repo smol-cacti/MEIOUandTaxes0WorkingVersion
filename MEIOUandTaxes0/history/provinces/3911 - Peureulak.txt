@@ -1,0 +1,26 @@
+owner = PAS
+controller = PAS
+add_core = PAS
+
+capital = "Peureulak"
+trade_goods = rice
+culture = acehenese
+religion = sunni
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+}

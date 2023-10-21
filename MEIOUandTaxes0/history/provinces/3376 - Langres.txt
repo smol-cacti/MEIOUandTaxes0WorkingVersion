@@ -1,0 +1,35 @@
+owner = FRA
+controller = FRA
+
+capital = "Langres"
+trade_goods = wine
+culture = francien
+religion = catholic
+
+hre = no
+
+base_tax = 12
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1343.1.1 = {
+	add_core = NAV
+}
+1356.1.1 = {
+	add_core = FRA
+	add_core = CHP
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 123.576 }
+	set_variable = { which = starting_rural_pop_1400 value = 84.958 }
+	set_variable = { which = starting_rural_pop_1450 value = 100.405 }
+	set_variable = { which = starting_rural_pop_1850 value = 241.067 }
+}

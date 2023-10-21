@@ -1,0 +1,4 @@
+culture = selkup
+religion = tengri_pagan_reformed
+
+discovered_by = steppestech

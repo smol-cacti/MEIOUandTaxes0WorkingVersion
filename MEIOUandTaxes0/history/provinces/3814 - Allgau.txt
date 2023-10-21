@@ -1,0 +1,30 @@
+owner = MEI
+controller = MEI
+add_core = MEI
+
+capital = "Neustadt"
+trade_goods = wheat
+culture = thuringian
+religion = catholic
+
+hre = yes
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = REU
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 44.453 }
+	set_variable = { which = starting_urban_pop_1350 value = 0.001 }
+	set_variable = { which = starting_rural_pop_1850 value = 89.016 }
+}

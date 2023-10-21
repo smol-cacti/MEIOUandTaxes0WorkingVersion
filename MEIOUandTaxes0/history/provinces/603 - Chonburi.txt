@@ -1,0 +1,28 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+
+capital = "Chonburi"
+trade_goods = fish
+culture = thai
+religion = buddhism
+
+hre = no
+
+base_tax = 5
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+town_hall = yes
+marketplace = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

@@ -1,0 +1,35 @@
+owner = LGZ
+controller = LGZ
+add_core = LGZ
+add_core = BOH
+
+capital = "Lignica"
+trade_goods = wheat
+culture = silesian
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = gold
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 46.866 }
+	set_variable = { which = starting_rural_pop_1400 value = 35.983 }
+	set_variable = { which = starting_rural_pop_1450 value = 43.449 }
+	set_variable = { which = starting_rural_pop_1850 value = 172.734 }
+}

@@ -1,0 +1,35 @@
+owner = CAS
+controller = CAS
+add_core = CAS
+
+capital = "Segovia"
+trade_goods = wool
+culture = castillian
+religion = catholic
+
+hre = no
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = ENR
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 168.062 }
+	set_variable = { which = starting_urban_pop_1350 value = 8 }
+	set_variable = { which = starting_rural_pop_1400 value = 129.383 }
+	set_variable = { which = starting_rural_pop_1450 value = 138.386 }
+	set_variable = { which = starting_rural_pop_1850 value = 181.668 }
+}

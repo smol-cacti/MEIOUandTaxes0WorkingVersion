@@ -1,0 +1,33 @@
+owner = RUP
+controller = RUP
+add_core = RUP
+
+capital = "Burg Ruppin"
+trade_goods = livestock
+culture = low_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+fort_14th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 26.765 }
+	set_variable = { which = starting_urban_pop_1350 value = 2.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 18.136 }
+	set_variable = { which = starting_rural_pop_1450 value = 21.701 }
+	set_variable = { which = starting_rural_pop_1850 value = 76.290 }
+}

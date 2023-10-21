@@ -1,0 +1,26 @@
+owner = RIG
+controller = RIG
+add_core = RIG
+
+capital = "Cesis"
+trade_goods = wheat
+culture = lattgalian
+religion = catholic
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}

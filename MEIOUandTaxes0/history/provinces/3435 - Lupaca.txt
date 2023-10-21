@@ -1,0 +1,29 @@
+owner = AYL
+controller = AYL
+add_core = AYL
+
+capital = "Kutimpu"
+trade_goods = livestock
+culture = aimara
+religion = inti
+
+hre = no
+
+base_tax = 26
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = tribals_control_province
+	set_province_flag = mined_goods
+	set_province_flag = gold
+}

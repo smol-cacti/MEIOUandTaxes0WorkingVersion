@@ -1,0 +1,32 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+
+capital = "Dole"
+trade_goods = livestock
+culture = bourguignon
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 79.145 }
+	set_variable = { which = starting_urban_pop_1350 value = 8.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 51.584 }
+	set_variable = { which = starting_rural_pop_1450 value = 62.258 }
+	set_variable = { which = starting_rural_pop_1850 value = 247.737 }
+}

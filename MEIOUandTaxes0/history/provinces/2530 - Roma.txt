@@ -1,0 +1,45 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+
+capital = "Roma"
+trade_goods = olive
+culture = umbrian
+religion = catholic
+
+hre = no
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+art_corporation = yes
+local_fortification_2 = yes
+great_temple = yes
+road_network = yes
+small_university = yes
+canal_level_1 = yes
+extra_cost = 10
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1309.1.1 = {
+	add_core = PA2
+	owner = PA2
+	controller = PA2
+}
+1356.1.1 = {
+	unrest = 5
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 99.280 }
+	set_variable = { which = starting_urban_pop_1350 value = 30 }
+	set_variable = { which = starting_rural_pop_1400 value = 56.480 }
+	set_variable = { which = starting_rural_pop_1450 value = 65.019 }
+	set_variable = { which = starting_rural_pop_1850 value = 15.852 }
+}

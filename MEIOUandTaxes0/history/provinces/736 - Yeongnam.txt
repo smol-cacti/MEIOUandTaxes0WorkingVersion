@@ -1,0 +1,25 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+
+capital = "Sangju"
+trade_goods = cotton
+culture = korean
+religion = mahayana
+
+hre = no
+
+base_tax = 15
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}

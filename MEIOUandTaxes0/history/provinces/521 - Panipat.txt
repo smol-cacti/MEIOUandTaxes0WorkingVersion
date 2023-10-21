@@ -1,0 +1,33 @@
+owner = MUL
+controller = MUL
+add_core = MUL
+
+capital = "Paanipat"
+trade_goods = wheat
+culture = kanauji
+religion = hinduism
+
+hre = no
+
+base_tax = 27
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+town_hall = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+}
+1356.1.1 = {
+	owner = DLH
+	controller = DLH
+	add_core = DLH
+	add_core = PTA
+}

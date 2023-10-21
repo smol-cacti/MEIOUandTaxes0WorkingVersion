@@ -1,0 +1,32 @@
+owner = NRM
+controller = NRM
+
+capital = "Mortagne"
+trade_goods = livestock
+culture = normand
+religion = catholic
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1343.1.1 = {
+	add_permanent_claim = NAV
+	add_permanent_claim = FRA
+	add_core = NRM
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 79.692 }
+	set_variable = { which = starting_rural_pop_1400 value = 54.788 }
+	set_variable = { which = starting_rural_pop_1450 value = 64.750 }
+	set_variable = { which = starting_rural_pop_1850 value = 130.319 }
+}

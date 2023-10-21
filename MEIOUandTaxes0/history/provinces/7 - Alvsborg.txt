@@ -1,0 +1,27 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+
+capital = "Vänersborg"
+trade_goods = lumber
+culture = swedish
+religion = catholic
+
+hre = no
+
+base_tax = 0
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 6.694 }
+	set_variable = { which = starting_rural_pop_1400 value = 4.184 }
+	set_variable = { which = starting_rural_pop_1450 value = 5.439 }
+	set_variable = { which = starting_rural_pop_1850 value = 32.127 }
+}

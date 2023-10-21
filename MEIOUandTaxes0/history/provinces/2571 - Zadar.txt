@@ -1,0 +1,43 @@
+owner = CRO
+controller = CRO
+add_core = CRO
+
+capital = "Jadera"
+trade_goods = wine
+culture = croatian
+religion = catholic
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+temple = yes
+road_network = yes
+town_hall = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1356.1.1 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	add_core = HUN
+	culture = dalmatian
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 25.501 }
+	set_variable = { which = starting_rural_pop_1400 value = 19.834 }
+	set_variable = { which = starting_rural_pop_1450 value = 22.668 }
+	set_variable = { which = starting_rural_pop_1850 value = 61.003 }
+}

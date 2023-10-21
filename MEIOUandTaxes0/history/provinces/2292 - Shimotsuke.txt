@@ -1,0 +1,23 @@
+owner = UTN
+controller = UTN
+add_core = UTN
+
+capital = "Utunomiya"
+trade_goods = rice
+culture = kanto
+religion = mahayana
+
+hre = no
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}

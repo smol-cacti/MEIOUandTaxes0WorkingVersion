@@ -1,0 +1,35 @@
+owner = SHL
+controller = SHL
+add_core = SHL
+
+capital = "Itzhoe"
+trade_goods = wax
+culture = old_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+harbour_infrastructure_1 = yes
+marketplace = yes
+town_hall = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 78.641 }
+	set_variable = { which = starting_rural_pop_1400 value = 56.796 }
+	set_variable = { which = starting_rural_pop_1450 value = 67.719 }
+	set_variable = { which = starting_rural_pop_1850 value = 299.104 }
+}

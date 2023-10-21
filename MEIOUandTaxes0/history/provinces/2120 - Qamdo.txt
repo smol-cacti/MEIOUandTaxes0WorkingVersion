@@ -1,0 +1,23 @@
+owner = UTS
+controller = UTS
+add_core = UTS
+
+capital = "Lhabagar"
+trade_goods = wool
+culture = tibetan
+religion = vajrayana
+
+hre = no
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+}

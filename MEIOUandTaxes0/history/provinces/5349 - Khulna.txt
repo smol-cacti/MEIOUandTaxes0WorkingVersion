@@ -1,0 +1,29 @@
+owner = BNG
+controller = BNG
+add_core = BNG
+
+capital = "Khulana"
+trade_goods = opium
+culture = bengali
+religion = hinduism
+
+hre = no
+
+base_tax = 40
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5	}
+	add_permanent_province_modifier = {
+		name = lack_of_harbour
+		duration = -1
+	}
+}

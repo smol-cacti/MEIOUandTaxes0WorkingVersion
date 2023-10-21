@@ -1,0 +1,2 @@
+culture = nenet
+religion = tengri_pagan_reformed

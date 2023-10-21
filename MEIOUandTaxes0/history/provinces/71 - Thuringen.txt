@@ -1,0 +1,35 @@
+owner = THU
+controller = THU
+add_core = THU
+
+capital = "Gotha"
+trade_goods = indigo
+culture = thuringian
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+local_fortification_1 = yes
+road_network = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 60.488 }
+	set_variable = { which = starting_rural_pop_1400 value = 43.686 }
+	set_variable = { which = starting_rural_pop_1450 value = 52.087 }
+	set_variable = { which = starting_rural_pop_1850 value = 127.439 }
+}

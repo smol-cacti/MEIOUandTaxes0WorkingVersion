@@ -1,0 +1,32 @@
+owner = BRA
+controller = BRA
+add_core = BRA
+
+capital = "Stendal"
+trade_goods = hemp
+culture = low_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 48.621 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 32.004 }
+	set_variable = { which = starting_rural_pop_1450 value = 39.313 }
+	set_variable = { which = starting_rural_pop_1850 value = 136.560 }
+}

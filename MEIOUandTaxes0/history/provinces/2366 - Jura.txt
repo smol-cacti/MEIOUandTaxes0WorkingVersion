@@ -1,0 +1,32 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+
+capital = "Salins"
+trade_goods = livestock
+culture = bourguignon
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = salt
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 53.209 }
+	set_variable = { which = starting_rural_pop_1400 value = 36.581 }
+	set_variable = { which = starting_rural_pop_1450 value = 43.232 }
+	set_variable = { which = starting_rural_pop_1850 value = 154.551 }
+}

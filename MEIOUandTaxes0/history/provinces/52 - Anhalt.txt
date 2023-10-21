@@ -1,0 +1,35 @@
+owner = ANH
+controller = ANH
+add_core = ANH
+
+capital = "Dessau"
+trade_goods = wheat
+culture = low_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+local_fortification_1 = yes
+workshop = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 54.801 }
+	set_variable = { which = starting_urban_pop_1350 value = 7 }
+	set_variable = { which = starting_rural_pop_1400 value = 39.634 }
+	set_variable = { which = starting_rural_pop_1450 value = 47.718 }
+	set_variable = { which = starting_rural_pop_1850 value = 111.133 }
+}

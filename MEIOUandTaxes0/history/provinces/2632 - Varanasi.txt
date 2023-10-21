@@ -1,0 +1,46 @@
+owner = AHM
+controller = AHM
+add_core = AHM
+
+capital = "Vaaraanasi"
+trade_goods = cotton
+culture = avadhi
+religion = hinduism
+
+hre = no
+
+base_tax = 40
+base_production = 4
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+small_university = yes
+workshop = yes
+marketplace = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 9 }
+}
+450.1.1 = {
+	add_permanent_province_modifier = {
+		name = religious_center
+		duration = -1
+	}
+}
+500.1.1 = {
+	add_permanent_province_modifier = {
+		name = urban_goods_cloth
+		duration = -1
+	}
+}
+1356.1.1 = {
+	unrest = 6
+}

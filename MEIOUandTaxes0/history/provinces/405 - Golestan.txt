@@ -1,0 +1,28 @@
+owner = ATB
+controller = ATB
+add_core = ATB
+
+capital = "Astarabad"
+trade_goods = wool
+culture = tabari
+religion = sunni
+
+hre = no
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1356.1.1 = {
+	add_core = SDB
+	add_core = MZA
+}

@@ -1,0 +1,36 @@
+owner = ZOU
+controller = ZOU
+
+capital = "Songjiang"
+trade_goods = cotton
+culture = wuhan
+religion = confucianism
+
+hre = no
+
+base_tax = 90
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 14 }
+}
+1271.12.18 = {
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = YUA
+	controller = YUA
+}
+1356.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	add_core = MNG
+}

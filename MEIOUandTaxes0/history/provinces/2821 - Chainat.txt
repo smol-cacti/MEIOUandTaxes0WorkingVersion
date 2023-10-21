@@ -1,0 +1,26 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+
+capital = "Nakhon Sawan"
+trade_goods = rice
+culture = thai
+religion = buddhism
+
+hre = no
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+	set_province_flag = mined_goods
+	set_province_flag = gems
+}

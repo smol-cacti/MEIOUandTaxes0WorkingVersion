@@ -1,0 +1,48 @@
+owner = TRE
+controller = TRE
+add_core = TRE
+add_permanent_claim = BYZ
+
+capital = "Trebizond"
+trade_goods = lumber
+culture = pontic
+religion = orthodox
+
+hre = no
+
+base_tax = 10
+base_production = 5
+base_manpower = 0
+
+is_city = yes
+temple = yes
+road_network = yes
+urban_infrastructure_1 = yes
+harbour_infrastructure_2 = yes
+merchant_guild = yes
+workshop = yes
+fort_14th = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	add_permanent_province_modifier = {
+		name = urban_goods_naval_supplies
+		duration = -1
+	}
+	set_province_flag = mined_goods
+	set_province_flag = copper
+}
+1111.1.1 = {
+	set_province_flag = silk_road_town
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = trebizond_silk_road
+		duration = -1
+	}
+}

@@ -1,0 +1,27 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+
+capital = "Nghe An"
+trade_goods = fish
+culture = vietnamese
+religion = mahayana
+
+hre = no
+
+base_tax = 5
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+town_hall = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

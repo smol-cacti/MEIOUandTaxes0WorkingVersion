@@ -1,0 +1,36 @@
+owner = SWI
+controller = SWI
+add_core = SWI
+
+capital = "St Gallen"
+trade_goods = livestock
+culture = high_alemanisch
+religion = catholic
+
+hre = yes
+
+base_tax = 14
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+warehouse = yes
+marketplace = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1264.1.1 = {
+	controller = HAB
+	owner = HAB
+	add_core = HAB
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 143.750 }
+	set_variable = { which = starting_urban_pop_1350 value = 5.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 105.750 }
+	set_variable = { which = starting_rural_pop_1450 value = 122.875 }
+	set_variable = { which = starting_rural_pop_1850 value = 321.444 }
+}

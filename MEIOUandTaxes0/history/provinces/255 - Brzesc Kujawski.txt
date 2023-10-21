@@ -1,0 +1,33 @@
+owner = POL
+controller = POL
+add_core = POL
+
+capital = "Brzesc Kujawski"
+trade_goods = lumber
+culture = polish
+religion = catholic
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 34.792 }
+	set_variable = { which = starting_rural_pop_1400 value = 26.164 }
+	set_variable = { which = starting_rural_pop_1450 value = 30.90 }
+	set_variable = { which = starting_rural_pop_1850 value = 154.129 }
+}

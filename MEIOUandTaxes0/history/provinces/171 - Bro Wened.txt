@@ -1,0 +1,53 @@
+owner = BRI
+controller = BRI
+add_core = BRI
+
+capital = "Gwened"
+trade_goods = wheat
+culture = breton
+religion = catholic
+
+hre = no
+
+base_tax = 22
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+workshop = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+500.1.1 = {
+	add_permanent_province_modifier = {
+		name = urban_goods_naval_supplies
+		duration = -1
+	}
+}
+1300.1.1 = {
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = morbihan_natural_harbour
+		duration = -1
+	}
+}
+1341.4.30 = {
+	owner = MNF
+	controller = MNF
+	add_core = MNF
+	add_core = BLO
+	remove_core = BRI
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 221.453 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 149.999 }
+	set_variable = { which = starting_rural_pop_1450 value = 178.181 }
+	set_variable = { which = starting_rural_pop_1850 value = 437.261 }
+}

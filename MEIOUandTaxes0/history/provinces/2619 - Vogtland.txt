@@ -1,0 +1,36 @@
+owner = BOH
+controller = BOH
+add_core = BOH
+
+capital = "Plauen"
+trade_goods = wheat
+culture = high_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1356.1.1 = {
+	add_core = MEI
+	add_core = REU
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 47.040 }
+	set_variable = { which = starting_urban_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1400 value = 33.696 }
+	set_variable = { which = starting_rural_pop_1450 value = 40.368 }
+	set_variable = { which = starting_rural_pop_1850 value = 155.101 }
+}

@@ -1,0 +1,25 @@
+owner = KHM
+controller = KHM
+add_core = KHM
+
+capital = "Strung Treng"
+trade_goods = rice
+culture = bahnar
+religion = animism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = tribals_control_province
+}

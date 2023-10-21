@@ -1,0 +1,24 @@
+owner = GUG
+controller = GUG
+add_core = GUG
+
+capital = "Kilian"
+trade_goods = wool
+culture = tibetan
+religion = vajrayana
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 1 }
+}

@@ -1,0 +1,32 @@
+owner = SRN
+controller = SRN
+add_core = SRN
+add_permanent_claim = BYZ
+
+capital = "Akhisar"
+trade_goods = cotton
+culture = greek
+religion = sunni
+
+hre = no
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1356.1.1 = {
+	discovered_by = CIR
+	add_core = AYD
+	add_core = BYZ
+}

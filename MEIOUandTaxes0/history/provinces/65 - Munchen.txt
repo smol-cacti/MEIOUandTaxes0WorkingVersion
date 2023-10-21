@@ -1,0 +1,48 @@
+owner = BAY
+controller = BAY
+add_core = BAY
+
+capital = "München"
+trade_goods = wheat
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 12
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+town_hall = yes
+workshop = yes
+road_network = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1340.12.20 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = BAY
+}
+1349.1.1 = {
+	owner = BAY
+	controller = BAY
+	add_core = BAY
+	remove_core = BAV
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 143.832 }
+	set_variable = { which = starting_urban_pop_1350 value = 11 }
+	set_variable = { which = starting_rural_pop_1400 value = 99.823 }
+	set_variable = { which = starting_rural_pop_1450 value = 120.827 }
+	set_variable = { which = starting_rural_pop_1850 value = 434.947 }
+}

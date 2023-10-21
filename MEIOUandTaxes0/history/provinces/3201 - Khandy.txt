@@ -1,0 +1,24 @@
+owner = KTH
+controller = KTH
+add_core = KTH
+
+capital = "Mahanuwara"
+trade_goods = cinnamon
+culture = sinhala
+religion = buddhism
+
+hre = no
+
+base_tax = 19
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = muslim
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}

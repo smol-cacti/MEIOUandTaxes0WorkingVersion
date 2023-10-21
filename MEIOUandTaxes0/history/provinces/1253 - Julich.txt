@@ -1,0 +1,32 @@
+owner = JUL
+controller = JUL
+add_core = JUL
+
+capital = "Jülich"
+trade_goods = livestock
+culture = ripuarianfranconian
+religion = catholic
+
+hre = yes
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 110.407 }
+	set_variable = { which = starting_rural_pop_1400 value = 79.738 }
+	set_variable = { which = starting_rural_pop_1450 value = 95.072 }
+	set_variable = { which = starting_rural_pop_1850 value = 320.953 }
+}

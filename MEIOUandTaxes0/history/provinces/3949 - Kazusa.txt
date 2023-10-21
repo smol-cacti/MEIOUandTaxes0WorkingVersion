@@ -1,0 +1,23 @@
+owner = KYO
+controller = KYO
+add_core = KYO
+
+capital = "Owotaki"
+trade_goods = rice
+culture = kanto
+religion = mahayana
+
+hre = no
+
+base_tax = 13
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}

@@ -1,0 +1,26 @@
+owner = LVO
+controller = LVO
+add_core = LVO
+
+capital = "Valmiera"
+trade_goods = wheat
+culture = lattgalian
+religion = catholic
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

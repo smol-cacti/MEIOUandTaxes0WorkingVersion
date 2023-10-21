@@ -1,0 +1,39 @@
+owner = NUS
+controller = NUS
+add_core = NUS
+
+capital = "Ansbach"
+trade_goods = livestock
+culture = eastfranconian
+religion = catholic
+
+hre = yes
+
+base_tax = 12
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+road_network = yes
+marketplace = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1338.1.1 = {
+	rename_capital = "Onelspach"
+	change_province_name = "Onelspach"
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 102.434 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 72.869 }
+	set_variable = { which = starting_rural_pop_1450 value = 88.152 }
+	set_variable = { which = starting_rural_pop_1850 value = 262.553 }
+}

@@ -1,0 +1,45 @@
+owner = DAA
+controller = DAA
+
+capital = "Jiangxia"
+trade_goods = rice
+culture = jingchu
+religion = confucianism
+
+hre = no
+
+base_tax = 28
+base_production = 9
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+urban_infrastructure_2 = yes
+merchant_guild = yes
+workshop = yes
+warehouse = yes
+temple = yes
+small_university = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = has_confluence
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = wuchang_confluence
+		duration = -1
+	}
+}
+1231.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = DAA
+	controller = DAA
+	add_core = DAA
+}

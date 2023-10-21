@@ -1,0 +1,32 @@
+owner = THU
+controller = THU
+add_core = THU
+
+capital = "Zwickau"
+trade_goods = wheat
+culture = thuringian
+religion = catholic
+
+hre = yes
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 58.552 }
+	set_variable = { which = starting_urban_pop_1350 value = 3.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 40.815 }
+	set_variable = { which = starting_rural_pop_1450 value = 48.934 }
+	set_variable = { which = starting_rural_pop_1850 value = 197.464 }
+}

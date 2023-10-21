@@ -1,0 +1,22 @@
+owner = TOC
+controller = TOC
+add_core = TOC
+
+capital = "Tlacotlalpan"
+trade_goods = cacao
+culture = nawa
+religion = nahuatl
+
+hre = no
+
+base_tax = 11
+base_production = 0
+base_manpower = 0
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+	set_province_flag = tribals_control_province
+	set_province_flag = gold
+}

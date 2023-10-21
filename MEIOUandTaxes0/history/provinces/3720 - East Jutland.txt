@@ -1,0 +1,27 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+
+capital = "Wibiærgh"
+trade_goods = livestock
+culture = danish
+religion = catholic
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+temple = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 70.745 }
+	set_variable = { which = starting_rural_pop_1400 value = 47.924 }
+	set_variable = { which = starting_rural_pop_1450 value = 59.335 }
+	set_variable = { which = starting_rural_pop_1850 value = 163.685 }
+}

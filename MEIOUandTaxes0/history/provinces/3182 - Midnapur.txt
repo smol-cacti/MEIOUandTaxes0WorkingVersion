@@ -1,0 +1,24 @@
+owner = ORI
+controller = ORI
+add_core = ORI
+
+capital = "Tamaluka"
+trade_goods = opium
+culture = bengali
+religion = hinduism
+
+hre = no
+
+base_tax = 30
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+}

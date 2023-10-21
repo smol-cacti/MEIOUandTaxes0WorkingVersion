@@ -1,0 +1,40 @@
+owner = BUL
+controller = BUL
+add_core = BUL
+
+capital = "Plovdiv"
+trade_goods = lumber
+culture = bulgarian
+religion = orthodox
+
+hre = no
+
+base_tax = 15
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+urban_infrastructure_1 = yes
+workshop = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	add_permanent_claim = BYZ
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 155.486 }
+	set_variable = { which = starting_urban_pop_1350 value = 19 }
+	set_variable = { which = starting_rural_pop_1400 value = 121.589 }
+	set_variable = { which = starting_rural_pop_1450 value = 115.589 }
+	set_variable = { which = starting_rural_pop_1850 value = 386.216 }
+}

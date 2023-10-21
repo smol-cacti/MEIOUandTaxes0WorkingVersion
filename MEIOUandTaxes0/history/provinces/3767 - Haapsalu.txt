@@ -1,0 +1,32 @@
+owner = OSE
+controller = OSE
+add_core = OSE
+
+capital = "Hapsal"
+trade_goods = fish
+culture = estonian
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+temple = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1346.1.1 = {
+	add_core = EST
+}
+1356.1.1 = {
+	set_province_flag = add_local_autonomy_25
+}

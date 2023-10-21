@@ -1,0 +1,35 @@
+owner = SND
+controller = SND
+add_core = SND
+
+capital = "Thatto"
+trade_goods = cotton
+culture = sindhi
+religion = sunni
+
+hre = no
+
+base_tax = 24
+base_production = 3
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+harbour_infrastructure_2 = yes
+fort_14th = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = has_delta_estuary
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = indus_estuary_modifier
+		duration = -1
+	}
+}

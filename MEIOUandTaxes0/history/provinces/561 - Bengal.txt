@@ -1,0 +1,27 @@
+owner = BNG
+controller = BNG
+add_core = BNG
+
+capital = "Haora"
+trade_goods = opium
+culture = bengali
+religion = hinduism
+
+hre = no
+
+base_tax = 55
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+fort_14th = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5	}
+}

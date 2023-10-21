@@ -1,0 +1,33 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+
+capital = "Kaposvár"
+trade_goods = lumber
+culture = hungarian
+religion = catholic
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 74.203 }
+	set_variable = { which = starting_rural_pop_1400 value = 59.363 }
+	set_variable = { which = starting_rural_pop_1450 value = 66.783 }
+	set_variable = { which = starting_rural_pop_1850 value = 252.291 }
+}

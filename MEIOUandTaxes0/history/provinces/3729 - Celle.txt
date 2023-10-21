@@ -1,0 +1,31 @@
+owner = LUN
+controller = LUN
+add_core = LUN
+
+capital = "Celle"
+trade_goods = livestock
+culture = eastphalian
+religion = catholic
+
+hre = yes
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 57.401 }
+	set_variable = { which = starting_rural_pop_1400 value = 41.457 }
+	set_variable = { which = starting_rural_pop_1450 value = 49.429 }
+	set_variable = { which = starting_rural_pop_1850 value = 205.418 }
+}

@@ -1,0 +1,31 @@
+owner = TVE
+controller = TVE
+add_core = TVE
+
+capital = "Tver"
+trade_goods = livestock
+culture = russian
+religion = orthodox
+
+hre = no
+
+base_tax = 9
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+workshop = yes
+marketplace = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}

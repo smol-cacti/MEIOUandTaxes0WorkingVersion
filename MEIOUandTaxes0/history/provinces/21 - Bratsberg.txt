@@ -1,0 +1,31 @@
+owner = NOR
+controller = NOR
+add_core = NOR
+
+capital = "Skien"
+trade_goods = lumber
+culture = norwegian
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1088.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = lead
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 14.491 }
+	set_variable = { which = starting_rural_pop_1400 value = 9.369 }
+	set_variable = { which = starting_rural_pop_1450 value = 13.615 }
+	set_variable = { which = starting_rural_pop_1850 value = 77.013 }
+}

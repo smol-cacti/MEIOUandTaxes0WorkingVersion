@@ -1,0 +1,34 @@
+owner = KNI
+controller = KNI
+add_core = KNI
+add_permanent_claim = BYZ
+
+capital = "Sifilke"
+trade_goods = fish
+culture = greek
+religion = orthodox
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+harbour_infrastructure_2 = yes
+temple = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	discovered_by = CIR
+	add_core = KAR
+}

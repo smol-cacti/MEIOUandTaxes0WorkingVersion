@@ -1,0 +1,25 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+
+capital = "Thien Truong"
+trade_goods = tea
+culture = vietnamese
+religion = mahayana
+
+hre = no
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}

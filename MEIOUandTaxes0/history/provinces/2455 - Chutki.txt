@@ -1,0 +1,2 @@
+culture = yukaghir
+religion = tengri_pagan_reformed

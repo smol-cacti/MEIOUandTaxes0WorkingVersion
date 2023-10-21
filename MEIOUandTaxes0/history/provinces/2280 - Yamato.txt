@@ -1,0 +1,39 @@
+owner = JAP
+controller = JAP
+
+capital = "Nara"
+trade_goods = tea
+culture = kansai
+religion = mahayana
+
+hre = no
+
+base_tax = 7
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+workshop = yes
+temple = yes
+small_university = yes
+town_hall = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+	add_permanent_province_modifier = {
+		name = urban_goods_steel
+		duration = -1
+	}
+	add_permanent_province_modifier = {
+		name = tsutsui_daimyo
+		duration = -1
+	}
+}
+1336.1.1 = {
+	add_core = JAP
+	add_core = AKG
+}

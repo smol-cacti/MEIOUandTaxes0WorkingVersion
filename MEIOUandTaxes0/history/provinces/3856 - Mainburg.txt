@@ -1,0 +1,43 @@
+owner = BAY
+controller = BAY
+add_core = BAY
+
+capital = "Mainburg"
+trade_goods = wheat
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1340.12.20 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = BAY
+}
+1349.1.1 = {
+	owner = BAY
+	controller = BAY
+	add_core = BAY
+	remove_core = BAV
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 65.581 }
+	set_variable = { which = starting_rural_pop_1400 value = 47.364 }
+	set_variable = { which = starting_rural_pop_1450 value = 56.473 }
+	set_variable = { which = starting_rural_pop_1850 value = 163.294 }
+}

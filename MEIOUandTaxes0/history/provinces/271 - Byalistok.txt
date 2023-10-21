@@ -1,0 +1,34 @@
+owner = TRK
+controller = TRK
+add_core = TRK
+
+capital = "Byalistok"
+trade_goods = lumber
+culture = polish
+religion = catholic
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1356.1.1 = {
+	add_core = LIT
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 60.079 }
+	set_variable = { which = starting_rural_pop_1400 value = 45.377 }
+	set_variable = { which = starting_rural_pop_1450 value = 53.842 }
+	set_variable = { which = starting_rural_pop_1850 value = 257.150 }
+}

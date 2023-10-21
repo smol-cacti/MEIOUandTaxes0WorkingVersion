@@ -1,0 +1,22 @@
+owner = SDB
+controller = SDB
+add_core = SDB
+
+capital = "Kyzyl Arvat"
+trade_goods = wool
+culture = persian
+religion = sunni
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+}

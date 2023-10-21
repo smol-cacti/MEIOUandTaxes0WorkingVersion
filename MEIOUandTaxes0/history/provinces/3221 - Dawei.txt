@@ -1,0 +1,25 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+
+capital = "Thawai"
+trade_goods = ebony
+culture = monic
+religion = buddhism
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}

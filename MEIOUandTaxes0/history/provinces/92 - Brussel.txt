@@ -1,0 +1,34 @@
+owner = BRB
+controller = BRB
+add_core = BRB
+
+capital = "Brussel"
+trade_goods = wheat
+culture = brabantian
+religion = catholic
+
+hre = yes
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+workshop = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+temple = yes
+fort_14th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 90.733 }
+	set_variable = { which = starting_urban_pop_1350 value = 27.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 43.669 }
+	set_variable = { which = starting_rural_pop_1450 value = 59.086 }
+	set_variable = { which = starting_rural_pop_1850 value = 401.874 }
+}

@@ -1,0 +1,29 @@
+owner = DOR
+controller = DOR
+add_core = DOR
+
+capital = "Dorpat"
+trade_goods = wax
+culture = estonian
+religion = catholic
+
+hre = no
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1356.1.1 = {
+	add_core = LVO
+	add_core = EST
+}

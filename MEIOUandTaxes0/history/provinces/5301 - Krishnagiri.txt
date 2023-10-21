@@ -1,0 +1,31 @@
+owner = GNG
+controller = GNG
+add_core = GNG
+
+capital = "Kirushnakiri"
+trade_goods = rice
+culture = tamil
+religion = hinduism
+
+hre = no
+
+base_tax = 28
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 7 }
+}
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_territorial_core = MAD
+	add_core = VIJ
+	add_core = GNG
+	set_province_flag = add_local_autonomy_75
+}

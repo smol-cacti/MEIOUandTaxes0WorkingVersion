@@ -1,0 +1,31 @@
+owner = YUA
+controller = YUA
+
+capital = "Guangning"
+trade_goods = fish
+culture = jilu
+religion = mahayana
+
+hre = no
+
+base_tax = 11
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1271.12.18 = {
+	add_core = YUA
+}
+1308.1.1 = {
+	owner = CSE
+	controller = CSE
+	add_core = CSE
+}

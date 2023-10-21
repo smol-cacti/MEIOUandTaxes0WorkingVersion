@@ -1,0 +1,33 @@
+owner = POL
+controller = POL
+add_core = POL
+
+capital = "Inowroclaw"
+trade_goods = lumber
+culture = polish
+religion = catholic
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 33.40 }
+	set_variable = { which = starting_rural_pop_1400 value = 25.118 }
+	set_variable = { which = starting_rural_pop_1450 value = 29.664 }
+	set_variable = { which = starting_rural_pop_1850 value = 250.360 }
+}

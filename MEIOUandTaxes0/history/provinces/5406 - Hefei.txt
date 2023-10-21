@@ -1,0 +1,36 @@
+owner = WUU
+controller = WUU
+
+capital = "Hefei"
+trade_goods = rice
+culture = jianghuai
+religion = confucianism
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+road_network = yes
+temple = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = WUU
+	controller = WUU
+	add_core = WUU
+}

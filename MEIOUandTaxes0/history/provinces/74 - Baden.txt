@@ -1,0 +1,36 @@
+owner = BAD
+controller = BAD
+add_core = BAD
+
+capital = "Baden"
+trade_goods = lumber
+culture = rhine_alemanisch
+religion = catholic
+
+hre = yes
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 87.220 }
+	set_variable = { which = starting_urban_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1400 value = 62.715 }
+	set_variable = { which = starting_rural_pop_1450 value = 74.467 }
+	set_variable = { which = starting_rural_pop_1850 value = 223.152 }
+}

@@ -1,0 +1,26 @@
+owner = NOR
+controller = NOR
+add_core = NOR
+
+capital = "Frösön"
+trade_goods = lumber
+culture = norwegian
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 15.071 }
+	set_variable = { which = starting_rural_pop_1400 value = 9.419 }
+	set_variable = { which = starting_rural_pop_1450 value = 12.245 }
+	set_variable = { which = starting_rural_pop_1850 value = 52.239 }
+}

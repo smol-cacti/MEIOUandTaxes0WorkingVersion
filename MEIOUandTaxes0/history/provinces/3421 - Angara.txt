@@ -1,0 +1,27 @@
+owner = AYA
+controller = AYA
+add_core = AYA
+
+capital = "Huancavelica"
+trade_goods = maize
+culture = quechuan
+religion = inti
+
+hre = no
+
+base_tax = 21
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+
+marketplace = yes
+town_hall = yes
+temple = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+	set_province_flag = tribals_control_province
+}

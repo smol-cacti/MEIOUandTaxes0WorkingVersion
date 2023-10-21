@@ -1,0 +1,31 @@
+owner = VIJ
+controller = VIJ
+add_core = VIJ
+
+capital = "Ikkeri"
+trade_goods = lumber
+culture = tuluva
+religion = hinduism
+
+hre = no
+
+base_tax = 9
+base_production = 3
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+temple = yes
+workshop = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+1356.1.1 = {
+	add_core = KLN
+	set_province_flag = add_local_autonomy_25
+}

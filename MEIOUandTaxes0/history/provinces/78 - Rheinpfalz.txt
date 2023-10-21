@@ -1,0 +1,35 @@
+owner = PAL
+controller = PAL
+add_core = PAL
+
+capital = "Zweibrücken"
+trade_goods = wine
+culture = hessian
+religion = catholic
+
+hre = yes
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 260.015 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 186.678 }
+	set_variable = { which = starting_rural_pop_1450 value = 223.096 }
+	set_variable = { which = starting_rural_pop_1850 value = 622.567 }
+}

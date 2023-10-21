@@ -1,0 +1,38 @@
+owner = AUV
+controller = AUV
+add_core = AUV
+
+capital = "Clarmon"
+trade_goods = livestock
+culture = limousin
+religion = catholic
+
+hre = no
+
+base_tax = 24
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+temple = yes
+warehouse = yes
+local_fortification_2 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_permanent_claim = FRA
+	add_permanent_claim = BUR
+	set_province_flag = add_local_autonomy_50
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 445.584 }
+	set_variable = { which = starting_urban_pop_1350 value = 8.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 305.183 }
+	set_variable = { which = starting_rural_pop_1450 value = 362.194 }
+	set_variable = { which = starting_rural_pop_1850 value = 816.846 }
+}

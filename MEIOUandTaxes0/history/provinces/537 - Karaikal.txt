@@ -1,0 +1,24 @@
+owner = MAD
+controller = MAD
+add_core = MAD
+
+capital = "Karaikkal"
+trade_goods = cinnamon
+culture = tamil
+religion = hinduism
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 9 }
+}

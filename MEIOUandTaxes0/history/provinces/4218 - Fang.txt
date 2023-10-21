@@ -1,0 +1,27 @@
+owner = LNA
+controller = LNA
+add_core = LNA
+
+capital = "Fang"
+trade_goods = lumber
+culture = lanna
+religion = buddhism
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = mined_goods
+	set_province_flag = tin
+}

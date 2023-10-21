@@ -1,0 +1,45 @@
+owner = BAW
+controller = BAW
+add_core = BAW
+
+capital = "Ingolstadt"
+trade_goods = wheat
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1340.12.20 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = BAW
+}
+1349.1.1 = {
+	owner = BAX
+	controller = BAX
+	add_core = BAX
+	remove_core = BAV
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 41.574 }
+	set_variable = { which = starting_urban_pop_1350 value = 3 }
+	set_variable = { which = starting_rural_pop_1400 value = 29.193 }
+	set_variable = { which = starting_rural_pop_1450 value = 34.883 }
+	set_variable = { which = starting_rural_pop_1850 value = 115.383 }
+}

@@ -1,0 +1,31 @@
+owner = BRA
+controller = BRA
+add_core = BRA
+
+capital = "Soldin"
+trade_goods = livestock
+culture = polabian
+religion = catholic
+
+hre = yes
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 47.424 }
+	set_variable = { which = starting_rural_pop_1400 value = 37.216 }
+	set_variable = { which = starting_rural_pop_1450 value = 45.956 }
+	set_variable = { which = starting_rural_pop_1850 value = 186.563 }
+}

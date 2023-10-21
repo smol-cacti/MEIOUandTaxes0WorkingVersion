@@ -1,0 +1,26 @@
+owner = SOO
+controller = SOO
+add_core = SOO
+
+capital = "Idufara"
+trade_goods = fish
+culture = kyushu
+religion = mahayana
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1344.1.1 = {
+	add_core = SHN
+}

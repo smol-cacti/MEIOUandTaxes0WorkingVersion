@@ -1,0 +1,26 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+
+capital = "Umeå"
+trade_goods = lumber
+culture = swedish
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 13.714 }
+	set_variable = { which = starting_rural_pop_1400 value = 8.571 }
+	set_variable = { which = starting_rural_pop_1450 value = 11.143 }
+	set_variable = { which = starting_rural_pop_1850 value = 99.515 }
+}

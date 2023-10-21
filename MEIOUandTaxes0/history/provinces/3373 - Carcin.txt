@@ -1,0 +1,36 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+
+capital = "Cahors"
+trade_goods = wine
+culture = occitain
+religion = catholic
+
+hre = no
+
+base_tax = 36
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+temple = yes
+marketplace = yes
+town_hall = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = GUY
+	add_core = DAL
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 365.775 }
+	set_variable = { which = starting_urban_pop_1350 value = 14.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 245.767 }
+	set_variable = { which = starting_rural_pop_1450 value = 292.020 }
+	set_variable = { which = starting_rural_pop_1850 value = 518.237 }
+}

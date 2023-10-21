@@ -1,0 +1,34 @@
+owner = OTT
+controller = OTT
+add_core = OTT
+
+capital = "Iznik"
+trade_goods = lumber
+culture = greek
+religion = orthodox
+
+hre = no
+
+base_tax = 7
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+temple = yes
+marketplace = yes
+local_fortification_1 = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	add_core = BYZ
+}

@@ -1,0 +1,30 @@
+owner = PLB
+controller = PLB
+add_core = PLB
+
+capital = "Merangin"
+trade_goods = pepper
+culture = sumatran
+religion = vajrayana
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+	set_province_flag = tribals_control_province
+}
+1356.1.1 = {
+	add_core = SIJ
+	add_permanent_claim = MPH
+	add_core = JMB
+}

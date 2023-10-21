@@ -1,0 +1,27 @@
+owner = CHB
+controller = CHB
+add_core = CHB
+
+capital = "Tiba"
+trade_goods = rice
+culture = kanto
+religion = mahayana
+
+hre = no
+
+base_tax = 21
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+}
+1356.1.1 = {
+	add_core = YUK
+}

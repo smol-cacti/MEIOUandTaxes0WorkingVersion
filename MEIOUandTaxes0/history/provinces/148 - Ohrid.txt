@@ -1,0 +1,44 @@
+owner = MKO
+controller = MKO
+add_core = MKO
+
+capital = "Prilep"
+trade_goods = wheat
+culture = bulgarian
+religion = orthodox
+
+hre = no
+
+base_tax = 7
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+workshop = yes
+local_fortification_1 = yes
+road_network = yes
+warehouse = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = mined_goods
+	set_province_flag = silver
+}
+1356.1.1 = {
+	add_permanent_claim = BYZ
+	add_permanent_claim = SER
+	set_province_flag = add_local_autonomy_15
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 25.187 }
+	set_variable = { which = starting_rural_pop_1400 value = 19.590 }
+	set_variable = { which = starting_rural_pop_1450 value = 22.389 }
+	set_variable = { which = starting_rural_pop_1850 value = 67.166 }
+}

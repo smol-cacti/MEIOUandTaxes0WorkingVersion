@@ -1,0 +1,29 @@
+owner = AHM
+controller = AHM
+add_core = AHM
+
+capital = "Saran"
+trade_goods = livestock
+culture = bihari
+religion = hinduism
+
+hre = no
+
+base_tax = 25
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 9 }
+}
+1356.1.1 = {
+	add_core = TRT
+}

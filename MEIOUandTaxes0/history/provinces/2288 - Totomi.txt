@@ -1,0 +1,27 @@
+owner = IGW
+controller = IGW
+
+capital = "Famamatu"
+trade_goods = fish
+culture = chubu
+religion = mahayana
+
+hre = no
+
+base_tax = 13
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+canal_level_1 = yes
+harbour_infrastructure_1 = yes
+road_network = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+1352.1.1 = {
+	add_core = IGW
+}

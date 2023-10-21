@@ -1,0 +1,33 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+add_permanent_claim = FRA
+
+capital = "Guéret"
+trade_goods = wheat
+culture = limousin
+religion = catholic
+
+hre = no
+
+base_tax = 13
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = GUY
+	set_province_flag = add_local_autonomy_25
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 131.20 }
+	set_variable = { which = starting_rural_pop_1400 value = 90.20 }
+	set_variable = { which = starting_rural_pop_1450 value = 106.60 }
+	set_variable = { which = starting_rural_pop_1850 value = 348.890 }
+}

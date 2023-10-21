@@ -1,0 +1,30 @@
+owner = MLO
+controller = MLO
+add_core = MLO
+
+capital = "Nuàra"
+trade_goods = livestock
+culture = lombard
+religion = catholic
+
+hre = yes
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+workshop = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 164.006 }
+	set_variable = { which = starting_urban_pop_1350 value = 3.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 111.333 }
+	set_variable = { which = starting_rural_pop_1450 value = 134.272 }
+	set_variable = { which = starting_rural_pop_1850 value = 428.109 }
+}

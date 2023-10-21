@@ -1,0 +1,28 @@
+owner = LOR
+controller = LOR
+add_core = LOR
+
+capital = "Lunéville"
+trade_goods = lumber
+culture = lorrain
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 89.743 }
+	set_variable = { which = starting_rural_pop_1400 value = 61.698 }
+	set_variable = { which = starting_rural_pop_1450 value = 72.916 }
+	set_variable = { which = starting_rural_pop_1850 value = 372.452 }
+}

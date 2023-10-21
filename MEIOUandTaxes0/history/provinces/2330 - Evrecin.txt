@@ -1,0 +1,35 @@
+owner = FRA
+controller = FRA
+
+capital = "Evreux"
+trade_goods = wax
+culture = normand
+religion = catholic
+
+hre = no
+
+base_tax = 18
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1343.1.1 = {
+	owner = NAV
+	controller = NAV
+	add_core = NAV
+	add_core = FRA
+	add_core = NRM
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 185.437 }
+	set_variable = { which = starting_rural_pop_1400 value = 127.488 }
+	set_variable = { which = starting_rural_pop_1450 value = 150.667 }
+	set_variable = { which = starting_rural_pop_1850 value = 300.615 }
+}

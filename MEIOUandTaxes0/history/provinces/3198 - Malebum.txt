@@ -1,0 +1,28 @@
+owner = NPL
+controller = NPL
+add_core = NPL
+
+capital = "Jumla"
+trade_goods = lumber
+culture = bhutanese
+religion = hinduism
+
+hre = no
+
+base_tax = 24
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1356.1.1 = {
+	set_province_flag = add_local_autonomy_25
+}

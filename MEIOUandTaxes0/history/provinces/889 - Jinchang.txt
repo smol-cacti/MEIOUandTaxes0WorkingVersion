@@ -1,0 +1,35 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+
+capital = "Jinju"
+trade_goods = cotton
+culture = korean
+religion = mahayana
+
+hre = no
+
+base_tax = 12
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+workshop = yes
+urban_infrastructure_1 = yes
+temple = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1356.1.1 = {
+	revolt = {
+		type = wokou_pirates
+		size = 0.1
+	}
+	controller = REB
+	unrest = 3
+}

@@ -1,0 +1,31 @@
+owner = RAV
+controller = RAV
+add_core = RAV
+
+capital = "Builefeld"
+trade_goods = wheat
+culture = westphalian
+religion = catholic
+
+hre = yes
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 66.085 }
+	set_variable = { which = starting_rural_pop_1400 value = 47.728 }
+	set_variable = { which = starting_rural_pop_1450 value = 56.907 }
+	set_variable = { which = starting_rural_pop_1850 value = 223.250 }
+}

@@ -1,0 +1,31 @@
+owner = DLH
+controller = DLH
+add_core = DLH
+
+capital = "Aagara"
+trade_goods = cotton
+culture = kanauji
+religion = hinduism
+
+hre = no
+
+base_tax = 49
+base_production = 3
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 9 }
+}
+1356.1.1 = {
+	add_core = GWA
+}

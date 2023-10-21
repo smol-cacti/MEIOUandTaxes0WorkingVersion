@@ -1,0 +1,3 @@
+culture = sapmi
+religion = tengri_pagan_reformed
+discovered_by = NOV

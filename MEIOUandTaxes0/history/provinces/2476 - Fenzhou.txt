@@ -1,0 +1,36 @@
+owner = YUA
+controller = YUA
+
+capital = "Fenzhou"
+trade_goods = wheat
+culture = jinyu
+religion = confucianism
+
+hre = no
+
+base_tax = 26
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1271.12.18 = {
+	add_core = YUA
+}
+1280.1.1 = {
+	owner = CYU
+	controller = CYU
+	add_core = CYU
+}
+1351.1.1 = {
+	owner = QIN
+	controller = QIN
+	add_core = QIN
+}

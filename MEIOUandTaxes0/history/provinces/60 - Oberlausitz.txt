@@ -1,0 +1,38 @@
+owner = BOH
+controller = BOH
+add_core = BOH
+
+capital = "Budysin"
+trade_goods = carmine
+culture = sorbs
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+town_hall = yes
+workshop = yes
+marketplace = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}1356.1.1 = {
+	add_core = BRA
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 142.020 }
+	set_variable = { which = starting_urban_pop_1350 value = 14 }
+	set_variable = { which = starting_rural_pop_1400 value = 94.681 }
+	set_variable = { which = starting_rural_pop_1450 value = 114.601 }
+	set_variable = { which = starting_rural_pop_1850 value = 441.940 }
+}

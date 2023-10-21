@@ -1,0 +1,26 @@
+owner = NST
+controller = NST
+add_core = NST
+
+capital = "Thalang"
+trade_goods = fish
+culture = malayan
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = mined_goods
+	set_province_flag = tin
+}

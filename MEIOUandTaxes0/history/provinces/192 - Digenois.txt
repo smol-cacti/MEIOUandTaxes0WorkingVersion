@@ -1,0 +1,38 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+
+capital = "Dyjon"
+trade_goods = wine
+culture = bourguignon
+religion = catholic
+
+hre = no
+
+base_tax = 37
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+marketplace = yes
+warehouse = yes
+urban_infrastructure_1 = yes
+temple = yes
+fort_14th = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = FRA
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 374.091 }
+	set_variable = { which = starting_urban_pop_1350 value = 28.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 251.032 }
+	set_variable = { which = starting_rural_pop_1450 value = 299.355 }
+	set_variable = { which = starting_rural_pop_1850 value = 818.773 }
+}

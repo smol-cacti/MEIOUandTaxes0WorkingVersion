@@ -1,0 +1,37 @@
+owner = ANJ
+controller = ANJ
+add_core = ANJ
+
+capital = "Le Mans"
+trade_goods = hemp
+culture = angevin
+religion = catholic
+
+hre = no
+
+base_tax = 36
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1250.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+1356.1.1 = {
+	add_core = BRI
+	add_core = FRA
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 364.279 }
+	set_variable = { which = starting_urban_pop_1350 value = 3.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 249.177 }
+	set_variable = { which = starting_rural_pop_1450 value = 294.868 }
+	set_variable = { which = starting_rural_pop_1850 value = 672.986 }
+}

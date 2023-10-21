@@ -1,0 +1,23 @@
+owner = SIH
+controller = SIH
+add_core = SIH
+
+capital = "Sihanaka"
+trade_goods = rice
+culture = vazimba
+religion = animism
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = malagasy_tech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+	set_province_flag = tribals_control_province
+}

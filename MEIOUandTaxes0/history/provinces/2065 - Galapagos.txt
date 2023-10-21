@@ -1,0 +1,16 @@
+capital = "Galepagos"
+trade_goods = unknown
+
+hre = no
+
+base_tax = 0
+base_production = 0
+base_manpower = 0
+
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+}

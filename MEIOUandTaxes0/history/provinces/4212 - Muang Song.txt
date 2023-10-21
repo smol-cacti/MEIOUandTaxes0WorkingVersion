@@ -1,0 +1,24 @@
+owner = LXA
+controller = LXA
+add_core = LXA
+
+capital = "Muang Song"
+trade_goods = rice
+culture = laotian
+religion = buddhism
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+}

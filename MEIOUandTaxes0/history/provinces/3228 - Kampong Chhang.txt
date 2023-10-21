@@ -1,0 +1,31 @@
+owner = KHM
+controller = KHM
+add_core = KHM
+
+capital = "Longvek"
+trade_goods = rice
+culture = khmer
+religion = buddhism
+
+hre = no
+
+base_tax = 15
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1356.1.1 = {
+	add_core = AYU
+}1907.1.1 = {
+	owner = FRA
+	controller = FRA
+}

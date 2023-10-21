@@ -1,0 +1,37 @@
+owner = POM
+controller = POM
+add_core = POM
+
+capital = "Stargard"
+trade_goods = wheat
+culture = kashubian
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+1295.1.1 = {
+	owner = PWO
+	controller = PWO
+	add_core = PWO
+	remove_core = POM
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 119.978 }
+	set_variable = { which = starting_rural_pop_1400 value = 92.116 }
+	set_variable = { which = starting_rural_pop_1450 value = 111.228 }
+	set_variable = { which = starting_rural_pop_1850 value = 153.704 }
+}

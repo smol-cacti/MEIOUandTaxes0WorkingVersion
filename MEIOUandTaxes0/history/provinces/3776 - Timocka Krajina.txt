@@ -1,0 +1,32 @@
+owner = VID
+controller = VID
+add_core = VID
+
+capital = "Negotin"
+trade_goods = lumber
+culture = serbian
+religion = orthodox
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 28.690 }
+	set_variable = { which = starting_rural_pop_1400 value = 22.314 }
+	set_variable = { which = starting_rural_pop_1450 value = 25.502 }
+	set_variable = { which = starting_rural_pop_1850 value = 76.506 }
+}

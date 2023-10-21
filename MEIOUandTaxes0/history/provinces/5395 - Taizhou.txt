@@ -1,0 +1,33 @@
+owner = ZOU
+controller = ZOU
+
+capital = "Taizhou"
+trade_goods = rice
+culture = jianghuai
+religion = confucianism
+
+hre = no
+
+base_tax = 29
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 8 }
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+}

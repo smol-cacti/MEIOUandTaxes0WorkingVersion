@@ -1,0 +1,30 @@
+owner = SKD
+controller = SKD
+add_core = SKD
+
+capital = "Sukadana"
+trade_goods = rice
+culture = dayak
+religion = vajrayana
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 1.5 }
+	set_province_flag = tribals_control_province
+	set_province_flag = gold
+}
+1356.1.1 = {
+	add_core = BKS
+	add_core = PTN
+}

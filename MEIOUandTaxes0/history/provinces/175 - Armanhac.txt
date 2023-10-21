@@ -1,0 +1,33 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+
+capital = "Aux"
+trade_goods = wine
+culture = gascon
+religion = catholic
+
+hre = no
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_permanent_claim = FRA
+	add_core = GUY
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 103.387 }
+	set_variable = { which = starting_rural_pop_1400 value = 71.079 }
+	set_variable = { which = starting_rural_pop_1450 value = 84.002 }
+	set_variable = { which = starting_rural_pop_1850 value = 205.798 }
+}

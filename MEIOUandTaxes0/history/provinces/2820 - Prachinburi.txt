@@ -1,0 +1,26 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+
+capital = "Prachinburi"
+trade_goods = rice
+culture = khmer
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+}
+1356.1.1 = {
+	add_core = KHM
+}

@@ -1,0 +1,33 @@
+owner = AMG
+controller = AMG
+add_core = AMG
+
+capital = "Charolle"
+trade_goods = wine
+culture = bourguignon
+religion = catholic
+
+hre = no
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = BUR
+	add_core = FRA
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 51.631 }
+	set_variable = { which = starting_rural_pop_1400 value = 35.496 }
+	set_variable = { which = starting_rural_pop_1450 value = 41.950 }
+	set_variable = { which = starting_rural_pop_1850 value = 117.188 }
+}

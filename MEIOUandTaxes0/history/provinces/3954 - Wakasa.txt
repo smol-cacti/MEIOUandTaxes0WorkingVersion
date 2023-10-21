@@ -1,0 +1,25 @@
+owner = HKW
+controller = HKW
+
+capital = "Wobama"
+trade_goods = fish
+culture = kansai
+religion = mahayana
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1354.1.1 = {
+	add_core = HKW
+}

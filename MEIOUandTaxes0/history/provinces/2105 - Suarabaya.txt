@@ -1,0 +1,41 @@
+owner = MPH
+controller = MPH
+add_core = MPH
+
+capital = "Surubaya"
+trade_goods = pepper
+culture = javan
+religion = hinduism	
+
+hre = no
+
+base_tax = 19
+base_production = 6
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_2 = yes
+marketplace = yes
+warehouse = yes
+temple = yes
+urban_infrastructure_2 = yes
+fort_14th = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_great_natural_harbour
+	set_province_flag = great_natural_place
+	add_permanent_province_modifier = {
+		name = surabaya_large_natural_harbor
+		duration = -1
+	}
+}
+1356.1.1 = {
+	add_core = SBT
+}

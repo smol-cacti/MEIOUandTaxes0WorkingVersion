@@ -1,0 +1,33 @@
+owner = BOH
+controller = BOH
+add_core = BOH
+
+capital = "Jawor"
+trade_goods = wheat
+culture = silesian
+religion = catholic
+
+hre = yes
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1356.1.1 = {
+	add_core = JAW
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 54.677 }
+	set_variable = { which = starting_rural_pop_1400 value = 41.980 }
+	set_variable = { which = starting_rural_pop_1450 value = 50.690 }
+	set_variable = { which = starting_rural_pop_1850 value = 168.563 }
+}

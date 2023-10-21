@@ -1,0 +1,24 @@
+owner = PAS
+controller = PAS
+add_core = PAS
+
+capital = "Meulabak"
+trade_goods = lumber
+culture = acehenese
+religion = hinduism
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+}

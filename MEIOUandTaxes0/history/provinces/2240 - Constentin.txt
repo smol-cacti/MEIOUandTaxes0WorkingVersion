@@ -1,0 +1,35 @@
+owner = FRA
+controller = FRA
+
+capital = "Chirebourc"
+trade_goods = livestock
+culture = normand
+religion = catholic
+
+hre = no
+
+base_tax = 33
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1354.1.1 = {
+	owner = NAV
+	controller = NAV
+	add_core = NAV
+	add_core = FRA
+	add_core = NRM
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 331.028 }
+	set_variable = { which = starting_rural_pop_1400 value = 227.581 }
+	set_variable = { which = starting_rural_pop_1450 value = 268.960 }
+	set_variable = { which = starting_rural_pop_1850 value = 521.438 }
+}

@@ -1,0 +1,29 @@
+owner = MGH
+controller = MGH
+add_core = MGH
+
+capital = "Kucha"
+trade_goods = wheat
+culture = chaghatai
+religion = mahayana
+
+hre = no
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+	set_province_flag = tribals_control_province
+}
+1356.1.1 = {
+	add_core = KAS
+}

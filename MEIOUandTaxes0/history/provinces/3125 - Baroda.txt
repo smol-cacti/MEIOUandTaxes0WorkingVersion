@@ -1,0 +1,27 @@
+owner = GUJ
+controller = GUJ
+add_core = GUJ
+
+capital = "Dabhoi"
+trade_goods = millet
+culture = gujarati
+religion = hinduism
+
+hre = no
+
+base_tax = 21
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+fort_14th = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+}

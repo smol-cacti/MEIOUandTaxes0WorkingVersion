@@ -1,0 +1,40 @@
+owner = ERF
+controller = ERF
+add_core = ERF
+
+capital = "Erfurt"
+trade_goods = indigo
+culture = thuringian
+religion = catholic
+
+hre = yes
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+workshop = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1356.1.1 = {
+	add_core = MAI
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 22.484 }
+	set_variable = { which = starting_urban_pop_1350 value = 27 }
+	set_variable = { which = starting_rural_pop_1400 value = 11.739 }
+	set_variable = { which = starting_rural_pop_1450 value = 21.111 }
+	set_variable = { which = starting_rural_pop_1850 value = 92.709 }
+}

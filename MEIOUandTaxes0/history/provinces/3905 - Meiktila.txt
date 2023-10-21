@@ -1,0 +1,26 @@
+owner = PIN
+controller = PIN
+
+capital = "Meiktila"
+trade_goods = opium
+culture = burmese
+religion = buddhism
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1313.2.7 = {
+	owner = PIN
+	controller = PIN
+	add_core = PIN
+}

@@ -1,0 +1,27 @@
+owner = LNA
+controller = LNA
+add_core = LNA
+
+capital = "Chiang Mai"
+trade_goods = tea
+culture = lanna
+religion = buddhism
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+temple = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}

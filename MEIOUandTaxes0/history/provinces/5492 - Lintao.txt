@@ -1,0 +1,36 @@
+owner = QIN
+controller = QIN
+
+capital = "Didao"
+trade_goods = wheat
+culture = guanzhong
+religion = confucianism
+
+hre = no
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = mined_goods
+	set_province_flag = silver
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = QIN
+	controller = QIN
+	add_core = QIN
+}

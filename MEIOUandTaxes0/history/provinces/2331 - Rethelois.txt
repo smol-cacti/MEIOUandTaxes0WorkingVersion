@@ -1,0 +1,35 @@
+owner = FLA
+controller = FLA
+add_core = FLA
+
+capital = "Rethel"
+trade_goods = lumber
+culture = lorrain
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+1356.1.1 = {
+	set_province_flag = add_local_autonomy_25
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 19.772 }
+	set_variable = { which = starting_rural_pop_1400 value = 13.593 }
+	set_variable = { which = starting_rural_pop_1450 value = 16.065 }
+	set_variable = { which = starting_rural_pop_1850 value = 27.990 }
+}

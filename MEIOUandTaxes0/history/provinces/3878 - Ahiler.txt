@@ -1,0 +1,29 @@
+owner = OTT
+controller = OTT
+add_core = OTT
+
+capital = "Kirikkale"
+trade_goods = wheat
+culture = turkish
+religion = sunni
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+	set_variable = { which = tribals_ratio	value = 3 }
+}

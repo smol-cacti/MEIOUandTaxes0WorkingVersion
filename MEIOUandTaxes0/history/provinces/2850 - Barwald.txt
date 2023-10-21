@@ -1,0 +1,37 @@
+owner = POM
+controller = POM
+add_core = POM
+
+capital = "Belgard"
+trade_goods = lumber
+culture = kashubian
+religion = catholic
+
+hre = yes
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1295.1.1 = {
+	owner = PWO
+	controller = PWO
+	add_core = PWO
+	remove_core = POM
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 69.987 }
+	set_variable = { which = starting_rural_pop_1400 value = 53.734 }
+	set_variable = { which = starting_rural_pop_1450 value = 64.883 }
+	set_variable = { which = starting_rural_pop_1850 value = 71.008 }
+}

@@ -1,0 +1,38 @@
+owner = FRA
+controller = FRA
+
+capital = "Greynovol"
+trade_goods = lumber
+culture = arpitan
+religion = catholic
+
+hre = no
+
+base_tax = 30
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+small_university = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+1349.1.1 = {
+	add_core = FRA
+	add_core = SAV
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 303.542 }
+	set_variable = { which = starting_urban_pop_1350 value = 7 }
+	set_variable = { which = starting_rural_pop_1400 value = 207.498 }
+	set_variable = { which = starting_rural_pop_1450 value = 245.815 }
+	set_variable = { which = starting_rural_pop_1850 value = 794.579 }
+}

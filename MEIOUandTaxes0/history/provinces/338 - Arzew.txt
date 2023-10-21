@@ -1,0 +1,37 @@
+owner = TLE
+controller = TLE
+add_core = TLE
+
+capital = "Arzew"
+trade_goods = olive
+culture = kabyle
+religion = sunni
+
+hre = no
+
+base_tax = 14
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = soudantech
+discovered_by = MAL
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+	set_variable = { which = tribals_ratio value = 15 }
+	set_variable = { which = settlement_score_progress_preset value = 75 }
+}
+1337.1.1 = {
+	owner = FEZ
+	controller = FEZ
+}
+1356.1.1 = {
+	add_core = FEZ
+	add_nationalism = 10
+}

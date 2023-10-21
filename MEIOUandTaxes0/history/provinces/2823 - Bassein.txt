@@ -1,0 +1,25 @@
+owner = PEG
+controller = PEG
+add_core = PEG
+
+capital = "Bassein"
+trade_goods = lumber
+culture = monic
+religion = buddhism
+
+hre = no
+
+base_tax = 26
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}

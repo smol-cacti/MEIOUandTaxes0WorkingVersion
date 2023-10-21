@@ -1,0 +1,29 @@
+owner = JAP
+controller = JAP
+
+capital = "Anau"
+trade_goods = lumber
+culture = kansai
+religion = mahayana
+
+hre = no
+
+is_city = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+temple = yes
+local_fortification_1 = yes
+canal_level_1 = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1336.1.1 = {
+	add_core = JAP
+}

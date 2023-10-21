@@ -1,0 +1,32 @@
+owner = MEI
+controller = MEI
+add_core = MEI
+
+capital = "Altenburg"
+trade_goods = wheat
+culture = high_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 30.715 }
+	set_variable = { which = starting_urban_pop_1350 value = 3 }
+	set_variable = { which = starting_rural_pop_1400 value = 21.349 }
+	set_variable = { which = starting_rural_pop_1450 value = 26.032 }
+	set_variable = { which = starting_rural_pop_1850 value = 68.967 }
+}

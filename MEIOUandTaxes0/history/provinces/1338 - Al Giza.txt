@@ -1,0 +1,30 @@
+owner = MAM
+controller = MAM
+add_core = MAM
+
+capital = "Al Giza"
+trade_goods = wheat
+culture = egyptian
+religion = sunni
+
+hre = no
+
+base_tax = 16
+base_production = 4
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_2 = yes
+workshop = yes
+road_network = yes
+canal_level_1 = yes
+
+discovered_by = east_african
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}

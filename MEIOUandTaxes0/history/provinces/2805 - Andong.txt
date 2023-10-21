@@ -1,0 +1,29 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+
+capital = "Andong"
+trade_goods = tea
+culture = korean
+religion = mahayana
+
+hre = no
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1308.1.1 = {
+	rename_capital = "Bokju"
+	change_province_name = "Bokju"
+}

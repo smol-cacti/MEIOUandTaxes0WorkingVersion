@@ -1,0 +1,21 @@
+owner = MIX
+controller = MIX
+add_core = MIX
+
+capital = "Tlachquiyauhco"
+trade_goods = maize
+culture = mixtec
+religion = nahuatl
+
+base_tax = 15
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+	set_province_flag = tribals_control_province
+}

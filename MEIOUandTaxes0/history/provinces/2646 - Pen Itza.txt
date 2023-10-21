@@ -1,0 +1,30 @@
+owner = ITZ
+controller = ITZ
+add_core = ITZ
+
+capital = "Nojpetén"
+trade_goods = maize
+culture = itza
+religion = mesoamerican_religion
+
+hre = no
+
+base_tax = 14
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+temple = yes
+marketplace = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+	set_province_flag = tribals_control_province
+}
+990.1.1 = {
+	set_province_flag = good_natural_place
+	peten_itza_lake_b = yes
+}

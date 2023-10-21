@@ -1,0 +1,33 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+
+capital = "Rotnaeby"
+trade_goods = lumber
+culture = danish
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 15.071 }
+	set_variable = { which = starting_rural_pop_1400 value = 9.419 }
+	set_variable = { which = starting_rural_pop_1450 value = 12.245 }
+	set_variable = { which = starting_rural_pop_1850 value = 94.496 }
+}

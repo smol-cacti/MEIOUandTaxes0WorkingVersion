@@ -1,0 +1,37 @@
+owner = MTV
+controller = MTV
+add_core = MTV
+
+capital = "Metz"
+trade_goods = wheat
+culture = lorrain
+religion = catholic
+
+hre = yes
+
+base_tax = 11
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+local_fortification_2 = yes
+urban_infrastructure_1 = yes
+corporation_guild = yes
+warehouse = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 118.456 }
+	set_variable = { which = starting_urban_pop_1350 value = 27.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 75.345 }
+	set_variable = { which = starting_rural_pop_1450 value = 98.589 }
+	set_variable = { which = starting_rural_pop_1850 value = 221.80 }
+}

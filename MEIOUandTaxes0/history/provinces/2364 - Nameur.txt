@@ -1,0 +1,38 @@
+owner = NAM
+controller = NAM
+add_core = NAM
+
+capital = "Nameur"
+trade_goods = wheat
+culture = wallonian
+religion = catholic
+
+hre = yes
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+town_hall = yes
+workshop = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+1356.1.1 = {
+	add_core = HOL
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 33.534 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 18.022 }
+	set_variable = { which = starting_rural_pop_1450 value = 23.027 }
+	set_variable = { which = starting_rural_pop_1850 value = 139.790 }
+}

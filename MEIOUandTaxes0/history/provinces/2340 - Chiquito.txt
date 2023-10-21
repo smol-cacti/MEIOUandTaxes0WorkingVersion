@@ -1,0 +1,27 @@
+owner = CZC
+controller = CZC
+add_core = CZC
+
+capital = "Hatun Colla"
+trade_goods = maize
+culture = quechuan
+religion = inti
+
+hre = no
+
+base_tax = 3
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+workshop = yes
+marketplace = yes
+road_network = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = tribals_control_province
+}

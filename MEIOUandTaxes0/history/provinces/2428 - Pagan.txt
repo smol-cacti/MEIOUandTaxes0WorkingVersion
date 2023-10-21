@@ -1,0 +1,31 @@
+owner = PIN
+controller = PIN
+
+capital = "Pagan"
+trade_goods = rice
+culture = burmese
+religion = buddhism
+
+hre = no
+
+base_tax = 17
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+marketplace = yes
+great_temple = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+1313.2.7 = {
+	owner = PIN
+	controller = PIN
+	add_core = PIN
+}

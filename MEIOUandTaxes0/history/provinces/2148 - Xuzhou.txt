@@ -1,0 +1,35 @@
+owner = YUA
+controller = YUA
+
+capital = "Xuzhou"
+trade_goods = cotton
+culture = hanyu
+religion = confucianism
+
+hre = no
+
+base_tax = 21
+base_production = 4
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+urban_infrastructure_2 = yes
+temple = yes
+marketplace = yes
+warehouse = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+}
+1271.12.18 = {
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = XNG
+	controller = XNG
+	add_core = XNG
+}

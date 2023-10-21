@@ -1,0 +1,33 @@
+owner = MEI
+controller = MEI
+add_core = MEI
+
+capital = "Leipzig"
+trade_goods = wool
+culture = high_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+workshop = yes
+town_hall = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 65.440 }
+	set_variable = { which = starting_urban_pop_1350 value = 10.740 }
+	set_variable = { which = starting_rural_pop_1850 value = 130.880 }
+}

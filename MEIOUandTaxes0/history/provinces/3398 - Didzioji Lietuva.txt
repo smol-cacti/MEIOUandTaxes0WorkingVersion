@@ -1,0 +1,25 @@
+owner = LIT
+controller = LIT
+add_core = LIT
+
+capital = "Breslauja"
+trade_goods = wax
+culture = lithuanian
+religion = baltic_pagan_reformed
+
+hre = no
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+}

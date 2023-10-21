@@ -1,0 +1,36 @@
+owner = BAZ
+controller = BAZ
+
+capital = "Straubing"
+trade_goods = wheat
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1354.1.1 = {
+	owner = BAZ
+	controller = BAZ
+	add_core = BAZ
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 119.073 }
+	set_variable = { which = starting_urban_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1400 value = 85.720 }
+	set_variable = { which = starting_rural_pop_1450 value = 101.896 }
+	set_variable = { which = starting_rural_pop_1850 value = 336.836 }
+}

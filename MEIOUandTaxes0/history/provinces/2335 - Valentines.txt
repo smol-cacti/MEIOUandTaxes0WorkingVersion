@@ -1,0 +1,36 @@
+owner = VLT
+controller = VLT
+
+capital = "Valença"
+trade_goods = wheat
+culture = vivaroaupenc
+religion = catholic
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+town_hall = yes
+marketplace = yes
+road_network = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1349.1.1 = {
+	add_permanent_claim = FRA
+	add_core = VLT
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 71.929 }
+	set_variable = { which = starting_urban_pop_1350 value = 11 }
+	set_variable = { which = starting_rural_pop_1400 value = 46.014 }
+	set_variable = { which = starting_rural_pop_1450 value = 56.130 }
+	set_variable = { which = starting_rural_pop_1850 value = 196.919 }
+}

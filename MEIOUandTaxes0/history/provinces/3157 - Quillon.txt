@@ -1,0 +1,31 @@
+owner = TRV
+controller = TRV
+add_core = TRV
+
+capital = "Keallam"
+trade_goods = indigo
+culture = malayalam
+religion = hinduism
+
+hre = no
+
+base_tax = 9
+base_production = 6
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+harbour_infrastructure_2 = yes
+urban_infrastructure_1 = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 8 }
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = quillon_natural_harbour
+		duration = -1
+	}
+}

@@ -1,0 +1,35 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+
+capital = "Skara"
+trade_goods = wheat
+culture = swedish
+religion = catholic
+
+hre = no
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	add_permanent_province_modifier = {
+		name = vastergotland_natural_harbour
+		duration = -1
+	}
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 91.265 }
+	set_variable = { which = starting_rural_pop_1400 value = 57.041 }
+	set_variable = { which = starting_rural_pop_1450 value = 74.153 }
+	set_variable = { which = starting_rural_pop_1850 value = 389.921 }
+}

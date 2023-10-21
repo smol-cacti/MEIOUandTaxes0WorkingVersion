@@ -1,0 +1,34 @@
+owner = KTH
+controller = KTH
+add_core = KTH
+
+capital = "Gimhathiththa"
+trade_goods = tea
+culture = sinhala
+religion = buddhism
+
+hre = no
+
+base_tax = 12
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+harbour_infrastructure_2 = yes
+temple = yes
+
+discovered_by = muslim
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+	set_province_flag = has_natural_harbour
+	set_province_flag = has_small_natural_harbour
+	set_province_flag = good_natural_place
+	add_permanent_province_modifier = {
+		name = galle_natural_harbour
+		duration = -1
+	}
+}

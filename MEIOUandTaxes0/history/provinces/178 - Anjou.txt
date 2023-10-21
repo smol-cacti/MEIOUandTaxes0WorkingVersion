@@ -1,0 +1,37 @@
+owner = ANJ
+controller = ANJ
+add_core = ANJ
+
+capital = "Angers"
+trade_goods = wine
+culture = angevin
+religion = catholic
+
+hre = no
+
+base_tax = 31
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+urban_infrastructure_1 = yes
+local_fortification_2 = yes
+marketplace = yes
+road_network = yes
+small_university = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = BRI
+	add_core = FRA
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 315.992 }
+	set_variable = { which = starting_urban_pop_1350 value = 29 }
+	set_variable = { which = starting_rural_pop_1400 value = 212.182 }
+	set_variable = { which = starting_rural_pop_1450 value = 261.306 }
+	set_variable = { which = starting_rural_pop_1850 value = 607.159 }
+}

@@ -1,0 +1,34 @@
+owner = TIC
+controller = TIC
+add_core = TIC
+
+capital = "Dún na nGall"
+trade_goods = hemp
+culture = irish
+religion = catholic
+
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+700.1.1 = {
+	set_province_flag = tribals_control_province
+	set_variable = { which = tribals_ratio	value = 45 }
+	set_variable = { which = settlement_score_progress_preset	value = 50 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 34.345 }
+	set_variable = { which = starting_rural_pop_1400 value = 25.759 }
+	set_variable = { which = starting_rural_pop_1450 value = 30.052 }
+	set_variable = { which = starting_rural_pop_1850 value = 331.492 }
+}

@@ -1,0 +1,25 @@
+owner = JAP
+controller = JAP
+
+capital = "Wakayama"
+trade_goods = livestock
+culture = kansai
+religion = mahayana
+
+hre = no
+
+base_tax = 19
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1336.1.1 = {
+	add_core = HKY
+	add_core = JAP
+}

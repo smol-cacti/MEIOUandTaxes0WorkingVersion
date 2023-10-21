@@ -1,0 +1,28 @@
+owner = SAV
+controller = SAV
+add_core = SAV
+
+capital = "Bourc"
+trade_goods = livestock
+culture = arpitan
+religion = catholic
+
+hre = no
+
+base_tax = 15
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 156.854 }
+	set_variable = { which = starting_rural_pop_1400 value = 107.837 }
+	set_variable = { which = starting_rural_pop_1450 value = 127.444 }
+	set_variable = { which = starting_rural_pop_1850 value = 349.356 }
+}

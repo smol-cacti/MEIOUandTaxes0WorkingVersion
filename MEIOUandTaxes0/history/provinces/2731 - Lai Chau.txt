@@ -1,0 +1,36 @@
+owner = DLI
+controller = DLI
+add_core = DLI
+
+capital = "An Tay"
+trade_goods = lumber
+culture = sipsong_thai
+religion = animism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+	set_province_flag = tribals_control_province
+}
+1253.1.1 = {
+	owner = YUA
+	controller = YUA
+}
+1274.1.1 = {
+	add_core = YUA
+}
+1350.1.1 = {
+	owner = LNG
+	controller = LNG
+	add_core = LNG
+}

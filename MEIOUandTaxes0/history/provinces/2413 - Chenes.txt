@@ -1,0 +1,23 @@
+owner = CKP
+controller = CKP
+add_core = CKP
+
+capital = "Ox Te' Tuun"
+trade_goods = maize
+culture = yucatecan
+religion = mesoamerican_religion
+
+hre = no
+
+base_tax = 15
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+	set_province_flag = tribals_control_province
+}

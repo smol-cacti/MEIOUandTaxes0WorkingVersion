@@ -1,0 +1,32 @@
+owner = PAL
+controller = PAL
+add_core = PAL
+
+capital = "Amberg"
+trade_goods = hemp
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 109.260 }
+	set_variable = { which = starting_urban_pop_1350 value = 3 }
+	set_variable = { which = starting_rural_pop_1400 value = 78.076 }
+	set_variable = { which = starting_rural_pop_1450 value = 93.418 }
+	set_variable = { which = starting_rural_pop_1850 value = 315.332 }
+}

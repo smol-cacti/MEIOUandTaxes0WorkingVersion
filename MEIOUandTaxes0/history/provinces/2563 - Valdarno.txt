@@ -1,0 +1,34 @@
+owner = FIR
+controller = FIR
+add_core = FIR
+
+capital = "Arezzo"
+trade_goods = livestock
+culture = tuscan
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+urban_infrastructure_1 = yes
+workshop = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 79.988 }
+	set_variable = { which = starting_urban_pop_1350 value = 19.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 62.688 }
+	set_variable = { which = starting_rural_pop_1450 value = 75.755 }
+	set_variable = { which = starting_rural_pop_1850 value = 178.668 }
+}

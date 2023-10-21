@@ -1,0 +1,36 @@
+owner = HAI
+controller = HAI
+
+capital = "Kimbré"
+trade_goods = wheat
+culture = picard
+religion = catholic
+
+hre = yes
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+500.1.1 = {
+	set_province_flag = iron
+}
+1299.11.10 = {
+	add_core = HAI
+	add_core = FLA
+	add_core = HOL
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 11.163 }
+	set_variable = { which = starting_urban_pop_1350 value = 4 }
+	set_variable = { which = starting_rural_pop_1400 value = 0.425 }
+	set_variable = { which = starting_rural_pop_1450 value = 1.820 }
+	set_variable = { which = starting_rural_pop_1850 value = 51.074 }
+}

@@ -1,0 +1,30 @@
+owner = LOR
+controller = LOR
+add_core = LOR
+
+capital = "Nancy"
+trade_goods = lumber
+culture = lorrain
+religion = catholic
+
+hre = yes
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 105.033 }
+	set_variable = { which = starting_urban_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1400 value = 71.898 }
+	set_variable = { which = starting_rural_pop_1450 value = 85.152 }
+	set_variable = { which = starting_rural_pop_1850 value = 404.820 }
+}

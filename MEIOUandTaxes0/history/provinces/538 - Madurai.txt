@@ -1,0 +1,28 @@
+owner = MAD
+controller = MAD
+add_core = MAD
+
+capital = "Madurai"
+trade_goods = pepper
+culture = tamil
+religion = hinduism
+
+hre = no
+
+base_tax = 17
+base_production = 6
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+workshop = yes
+local_fortification_1 = yes
+temple = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 8 }
+}

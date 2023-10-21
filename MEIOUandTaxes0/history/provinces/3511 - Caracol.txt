@@ -1,0 +1,21 @@
+owner = CTM
+controller = CTM
+add_core = CTM
+
+capital = "Caracol"
+trade_goods = cacao
+culture = itza
+religion = mesoamerican_religion
+
+base_tax = 16
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = tribals_control_province
+}

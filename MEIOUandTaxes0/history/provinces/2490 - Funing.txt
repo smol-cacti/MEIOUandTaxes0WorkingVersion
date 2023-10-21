@@ -1,0 +1,42 @@
+owner = YUA
+controller = YUA
+
+capital = "Funing"
+trade_goods = cotton
+culture = minyu
+religion = confucianism
+
+hre = no
+
+base_tax = 32
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+985.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1315.1.1 = {
+	owner = CMN
+	controller = CMN
+	add_core = CEN
+	add_core = CMN
+}
+1320.1.1 = {
+	remove_core = SNG
+}

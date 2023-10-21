@@ -1,0 +1,29 @@
+owner = MYA
+controller = MYA
+add_core = MYA
+
+capital = "Myitkyina"
+trade_goods = rice
+culture = kachin
+religion = animism
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2 }
+	set_province_flag = tribals_control_province
+	set_province_flag = mined_goods
+	set_province_flag = gems
+}
+1356.1.1 = {
+	add_core = DLI
+}

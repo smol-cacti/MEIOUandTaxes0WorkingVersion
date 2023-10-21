@@ -1,0 +1,26 @@
+owner = PEG
+controller = PEG
+add_core = PEG
+
+capital = "Myawaddy"
+trade_goods = rice
+culture = karen
+religion = buddhism
+
+hre = no
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = tribals_control_province
+}

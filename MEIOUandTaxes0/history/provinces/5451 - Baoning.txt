@@ -1,0 +1,37 @@
+owner = QIN
+controller = XIA
+
+capital = "Longzhong"
+trade_goods = carmine
+culture = bashu
+religion = confucianism
+
+hre = no
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = SHU
+	controller = SHU
+	add_core = SHU
+}
+1356.1.1 = {
+	controller = XIA
+}

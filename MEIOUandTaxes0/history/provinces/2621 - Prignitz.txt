@@ -1,0 +1,31 @@
+owner = BRA
+controller = BRA
+add_core = BRA
+
+capital = "Perleberg"
+trade_goods = livestock
+culture = low_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 5
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 24.387 }
+	set_variable = { which = starting_rural_pop_1400 value = 17.613 }
+	set_variable = { which = starting_rural_pop_1450 value = 21 }
+	set_variable = { which = starting_rural_pop_1850 value = 70.242 }
+}

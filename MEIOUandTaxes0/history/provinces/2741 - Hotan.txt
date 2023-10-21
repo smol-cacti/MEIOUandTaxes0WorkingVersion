@@ -1,0 +1,33 @@
+owner = MGH
+controller = MGH
+add_core = MGH
+
+capital = "Ilchi"
+trade_goods = wheat
+culture = chaghatai
+religion = mahayana
+
+hre = no
+
+base_tax = 5
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+town_hall = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = tribals_control_province
+	set_province_flag = mined_goods
+	set_province_flag = gems
+}
+1356.1.1 = {
+	add_core = YRK
+}

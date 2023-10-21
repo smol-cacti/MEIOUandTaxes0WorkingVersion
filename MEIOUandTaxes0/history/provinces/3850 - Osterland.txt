@@ -1,0 +1,32 @@
+owner = MEI
+controller = MEI
+add_core = MEI
+
+capital = "Colditz"
+trade_goods = wheat
+culture = high_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 43.223 }
+	set_variable = { which = starting_urban_pop_1350 value = 1.250 }
+	set_variable = { which = starting_rural_pop_1400 value = 30.620 }
+	set_variable = { which = starting_rural_pop_1450 value = 36.546 }
+	set_variable = { which = starting_rural_pop_1850 value = 148.026 }
+}

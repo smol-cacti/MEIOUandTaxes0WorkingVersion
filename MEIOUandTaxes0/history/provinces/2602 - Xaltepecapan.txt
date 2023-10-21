@@ -1,0 +1,17 @@
+capital = "Texistepec"
+trade_goods = maize
+culture = zoque
+religion = nahuatl
+
+hre = no
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+discovered_by = mesoamerican
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+	set_province_flag = tribals_control_province
+}

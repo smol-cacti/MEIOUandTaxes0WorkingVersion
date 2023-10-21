@@ -1,0 +1,33 @@
+owner = GNG
+controller = GNG
+
+capital = "Penukonda"
+trade_goods = lumber
+culture = telegu
+religion = hinduism
+
+hre = no
+
+base_tax = 20
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = mined_goods
+	set_province_flag = gems
+}
+1336.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1356.1.1 = {
+	add_core = GNG
+	add_core = VIJ
+}

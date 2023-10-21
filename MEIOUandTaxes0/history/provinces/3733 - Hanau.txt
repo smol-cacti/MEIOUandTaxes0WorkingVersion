@@ -1,0 +1,33 @@
+owner = HNU
+controller = HNU
+add_core = HNU
+
+capital = "Hanau"
+trade_goods = wool
+culture = hessian
+religion = catholic
+
+hre = yes
+
+base_tax = 8
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 48.064 }
+	set_variable = { which = starting_urban_pop_1350 value = 1 }
+	set_variable = { which = starting_rural_pop_1400 value = 34.435 }
+	set_variable = { which = starting_rural_pop_1450 value = 41.249 }
+	set_variable = { which = starting_rural_pop_1850 value = 111.892 }
+}

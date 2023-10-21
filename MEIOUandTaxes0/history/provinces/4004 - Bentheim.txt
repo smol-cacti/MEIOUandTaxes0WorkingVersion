@@ -1,0 +1,31 @@
+owner = BNT
+controller = BNT
+add_core = BNT
+
+capital = "Bentheim"
+trade_goods = livestock
+culture = dutch
+religion = catholic
+
+hre = yes
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 11.356 }
+	set_variable = { which = starting_rural_pop_1400 value = 8.201 }
+	set_variable = { which = starting_rural_pop_1450 value = 9.779 }
+	set_variable = { which = starting_rural_pop_1850 value = 38.158 }
+}

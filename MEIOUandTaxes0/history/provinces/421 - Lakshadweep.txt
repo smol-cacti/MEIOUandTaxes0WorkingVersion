@@ -1,0 +1,21 @@
+capital = "Lakshadwipa"
+trade_goods = unknown
+culture = malayalam
+religion = sunni
+
+hre = no
+
+base_tax = 0
+base_production = 0
+base_manpower = 0
+
+native_size = 5
+native_ferocity = 3
+native_hostileness = 1
+
+discovered_by = indian
+
+450.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 8 }
+	set_variable = { which = starting_rural_pop_1850 value = 19.20 }
+}

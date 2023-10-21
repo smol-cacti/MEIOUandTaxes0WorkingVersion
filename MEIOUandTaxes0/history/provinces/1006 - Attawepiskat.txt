@@ -1,0 +1,37 @@
+owner = FRR
+controller = FRR
+add_core = FRR
+
+capital = "Regensburg"
+trade_goods = livestock
+culture = bavarian
+religion = catholic
+
+hre = yes
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+road_network = yes
+marketplace = yes
+town_hall = yes
+temple = yes
+workshop = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 12.807 }
+	set_variable = { which = starting_urban_pop_1350 value = 13 }
+	set_variable = { which = starting_rural_pop_1400 value = 3.639 }
+	set_variable = { which = starting_rural_pop_1450 value = 3.723 }
+	set_variable = { which = starting_rural_pop_1850 value = 52.332 }
+}

@@ -1,0 +1,41 @@
+owner = GLO
+controller = GLO
+
+capital = "Olesnica"
+trade_goods = wheat
+culture = silesian
+religion = catholic
+
+hre = yes
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1313.1.1 = {
+	add_core = OLE
+	owner = OLE
+	controller = OLE
+}
+1329.1.1 = {
+	add_core = BOH
+}
+1356.1.1 = {
+	add_core = GLO
+	add_core = BOH
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 39.055 }
+	set_variable = { which = starting_rural_pop_1400 value = 29.986 }
+	set_variable = { which = starting_rural_pop_1450 value = 36.207 }
+	set_variable = { which = starting_rural_pop_1850 value = 116.537 }
+}

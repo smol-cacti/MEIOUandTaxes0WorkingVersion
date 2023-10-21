@@ -1,0 +1,31 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+
+capital = "Karlstad"
+trade_goods = lumber
+culture = swedish
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 13.815 }
+	set_variable = { which = starting_rural_pop_1400 value = 8.634 }
+	set_variable = { which = starting_rural_pop_1450 value = 11.224 }
+	set_variable = { which = starting_rural_pop_1850 value = 223.020 }
+}

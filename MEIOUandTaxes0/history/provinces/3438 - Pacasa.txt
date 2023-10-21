@@ -1,0 +1,26 @@
+owner = AYP
+controller = AYP
+add_core = AYP
+
+capital = "Pacasa"
+trade_goods = livestock
+culture = aimara
+religion = inti
+
+hre = no
+
+base_tax = 10
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = south_american
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3.5 }
+	set_province_flag = tribals_control_province
+}

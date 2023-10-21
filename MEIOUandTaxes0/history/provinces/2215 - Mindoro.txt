@@ -1,0 +1,28 @@
+capital = "Mindoro"
+trade_goods = unknown
+culture = tagalog
+religion = vajrayana
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3
+
+discovered_by = chinese
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 1.5 }
+}
+1355.1.1 = {
+	owner = LUS
+	controller = LUS
+	add_core = LUS
+	citysize = 5000
+	trade_goods = clove
+}

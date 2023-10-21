@@ -1,0 +1,32 @@
+owner = UTR
+controller = UTR
+add_core = UTR
+
+capital = "As'n"
+trade_goods = livestock
+culture = dutch
+religion = catholic
+
+hre = yes
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = HOL
+	add_core = FRI
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 12.109 }
+	set_variable = { which = starting_rural_pop_1400 value = 9.687 }
+	set_variable = { which = starting_rural_pop_1450 value = 10.720 }
+	set_variable = { which = starting_rural_pop_1850 value = 69.795 }
+}

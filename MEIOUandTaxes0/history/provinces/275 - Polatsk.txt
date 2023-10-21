@@ -1,0 +1,35 @@
+owner = PLT
+controller = PLT
+add_core = PLT
+
+capital = "Polack"
+trade_goods = wheat
+culture = ruthenian
+religion = orthodox
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+workshop = yes
+road_network = yes
+temple = yes
+fort_14th = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = mined_goods
+	set_province_flag = copper
+}
+1356.1.1 = {
+	add_core = LIT
+}

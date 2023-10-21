@@ -1,0 +1,31 @@
+owner = YRA
+controller = YRA
+add_core = YRA
+
+capital = "Al Mukha"
+trade_goods = wheat
+culture = yemeni
+religion = sunni
+
+hre = no
+
+base_tax = 10
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = ADA
+discovered_by = KIL
+discovered_by = MKU
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = indian
+discovered_by = east_african
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6 }
+}

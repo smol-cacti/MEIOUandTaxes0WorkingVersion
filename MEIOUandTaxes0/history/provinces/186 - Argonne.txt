@@ -1,0 +1,45 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+
+capital = "Reims"
+trade_goods = wine
+culture = francien
+religion = catholic
+
+hre = no
+
+base_tax = 18
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_2 = yes
+temple = yes
+urban_infrastructure_2 = yes
+workshop = yes
+road_network = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+500.1.1 = {
+	add_permanent_province_modifier = {
+		name = urban_goods_linen
+		duration = -1
+	}
+}
+1343.1.1 = {
+	add_core = NAV
+}
+1356.1.1 = {
+	add_core = CHP
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 481.876 }
+	set_variable = { which = starting_urban_pop_1350 value = 49.50 }
+	set_variable = { which = starting_rural_pop_1400 value = 320.071 }
+	set_variable = { which = starting_rural_pop_1450 value = 385.493 }
+	set_variable = { which = starting_rural_pop_1850 value = 1003.368 }
+}

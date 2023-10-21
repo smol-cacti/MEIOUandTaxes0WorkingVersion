@@ -1,0 +1,29 @@
+owner = TRK
+controller = TRK
+add_core = TRK
+
+capital = "Kaunas"
+trade_goods = livestock
+culture = lithuanian
+religion = baltic_pagan_reformed
+
+hre = no
+
+base_tax = 6
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+fort_14th = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1356.1.1 = {
+	add_core = LIT
+}

@@ -1,0 +1,36 @@
+owner = BAH
+controller = BAH
+add_core = BAH
+
+capital = "Thana"
+trade_goods = millet
+culture = marathi
+religion = hinduism
+
+hre = no
+
+base_tax = 32
+base_production = 7
+base_manpower = 0
+
+is_city = yes
+marketplace = yes
+urban_infrastructure_1 = yes
+harbour_infrastructure_2 = yes
+workshop = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5 }
+	add_permanent_province_modifier = {
+		name = urban_goods_cloth
+		duration = -1
+	}
+}
+1356.1.1 = {
+	add_core = BAS
+}

@@ -1,0 +1,28 @@
+owner = STR
+controller = STR
+add_core = STR
+
+capital = "Zàwere"
+trade_goods = wine
+culture = rhine_alemanisch
+religion = catholic
+
+hre = yes
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 72.909 }
+	set_variable = { which = starting_rural_pop_1400 value = 50.125 }
+	set_variable = { which = starting_rural_pop_1450 value = 59.239 }
+	set_variable = { which = starting_rural_pop_1850 value = 430.481 }
+}

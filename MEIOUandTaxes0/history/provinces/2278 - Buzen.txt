@@ -1,0 +1,23 @@
+owner = SHN
+controller = SHN
+add_core = SHN
+
+capital = "Kokura"
+trade_goods = fish
+culture = kyushu
+religion = mahayana
+
+hre = no
+
+base_tax = 9
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+}

@@ -1,0 +1,35 @@
+owner = CRO
+controller = CRO
+add_core = CRO
+
+capital = "Senj"
+trade_goods = lumber
+culture = croatian
+religion = catholic
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+road_network = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1356.1.1 = {
+	add_core = HUN
+}
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 89.370 }
+	set_variable = { which = starting_rural_pop_1400 value = 69.510 }
+	set_variable = { which = starting_rural_pop_1450 value = 79.440 }
+	set_variable = { which = starting_rural_pop_1850 value = 236.319 }
+}

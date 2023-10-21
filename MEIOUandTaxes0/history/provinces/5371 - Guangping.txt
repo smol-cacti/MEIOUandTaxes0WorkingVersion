@@ -1,0 +1,33 @@
+owner = YUA
+controller = YUA
+
+capital = "Yongnian"
+trade_goods = wheat
+culture = jilu
+religion = confucianism
+
+hre = no
+
+base_tax = 23
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 6.5 }
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1351.1.1 = {
+	owner = CYU
+	controller = CYU
+	add_core = CYU
+}

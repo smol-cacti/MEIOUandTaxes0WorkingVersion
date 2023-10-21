@@ -1,0 +1,32 @@
+owner = KYO
+controller = KYO
+
+capital = "Yasugi"
+trade_goods = rice
+culture = chugoku
+religion = mahayana
+
+hre = no
+
+base_tax = 11
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+temple = yes
+local_fortification_1 = yes
+canal_level_1 = yes
+
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+}
+1352.1.1 = {
+	add_core = KYO
+}
+1353.1.1 = {
+	add_core = YMN
+	owner = YMN
+	controller = YMN
+}

@@ -1,0 +1,27 @@
+owner = SBG
+controller = SBG
+add_core = SBG
+
+capital = "Schönburg"
+trade_goods = wheat
+culture = high_saxon
+religion = catholic
+
+hre = yes
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+local_fortification_1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+100.1.1 = {
+	set_variable = { which = starting_rural_pop_1350 value = 2.490 }
+	set_variable = { which = starting_urban_pop_1350 value = 0.001 }
+	set_variable = { which = starting_rural_pop_1850 value = 4.980 }
+}

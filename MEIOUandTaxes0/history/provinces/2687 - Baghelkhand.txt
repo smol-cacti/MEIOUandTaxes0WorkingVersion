@@ -1,0 +1,29 @@
+owner = BGL
+controller = BGL
+add_core = BGL
+
+capital = "Bandhogarh"
+trade_goods = rice
+culture = bagheli
+religion = hinduism
+
+hre = no
+
+base_tax = 22
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+town_hall = yes
+local_fortification_1 = yes
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 5.5 }
+	set_province_flag = mined_goods
+	set_province_flag = gems
+}

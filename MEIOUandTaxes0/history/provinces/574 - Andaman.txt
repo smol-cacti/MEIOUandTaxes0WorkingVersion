@@ -1,0 +1,23 @@
+capital = "Andoman"
+trade_goods = fish
+culture = andamanese_c
+religion = buddhism
+
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+native_size = 5
+native_ferocity = 7
+native_hostileness = 2
+
+harbour_infrastructure_1 = yes
+
+discovered_by = austranesian
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 2.5 }
+	set_province_flag = tribals_control_province
+}

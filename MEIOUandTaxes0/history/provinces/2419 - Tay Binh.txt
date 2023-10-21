@@ -1,0 +1,32 @@
+owner = CHA
+controller = CHA
+
+capital = "Tay Binh"
+trade_goods = fish
+culture = cham
+religion = hinduism
+
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+is_city = yes
+harbour_infrastructure_1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 3 }
+}
+1307.1.1 = {
+	owner = DAI
+	controller = DAI
+	add_core = DAI
+}
+1356.1.1 = {
+	add_core = CHA
+}

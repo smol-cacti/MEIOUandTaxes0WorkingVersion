@@ -1,0 +1,22 @@
+owner = TKD
+controller = TKD
+culture = chubu
+religion = mahayana
+
+capital = "Kaufu"
+trade_goods = rice
+hre = no
+base_tax = 11
+base_production = 0
+base_manpower = 0
+is_city = yes
+discovered_by = chinese
+
+450.1.1 = {
+	set_variable = { which = pop_level value = 4.5 }
+	set_province_flag = mined_goods
+	set_province_flag = iron
+}
+1356.1.1 = {
+	add_core = TKD
+}
