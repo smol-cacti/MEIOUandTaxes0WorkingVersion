@@ -1422,11 +1422,11 @@ local_fort_deconst = {
 }
 
 get_country_total_value = {
-	set_variable = { which = country_total_value which = wealth_total_fluid }
-	multiply_variable = { which = country_total_value value = 4 }
-	change_variable = { which = country_total_value which = wealth_as_asset }
+	#set_variable = { which = country_total_value which = wealth_total_fluid }		# these 3 lines get overwritten by the set_variable below, I'll comment them out
+	#multiply_variable = { which = country_total_value value = 4 }
+	#change_variable = { which = country_total_value which = wealth_as_asset }
 	
-	set_variable = { which = country_total_value which = devPointTotal }
+	set_variable = { which = country_total_value which = devPointTotal } # this overwrites the 3 lines of code above
 	multiply_variable = { which = country_total_value value = 25 }
 	change_variable = { which = country_total_value which = wealth_total_fluid }
 	multiply_variable = { which = country_total_value value = 4 }
